@@ -9,7 +9,6 @@ const FILTERS = [
   { id: "all", label: "All" },
   { id: "steam", label: "PC / Steam" },
   { id: "casual", label: "Mobile" },
-  { id: "tools", label: "Tools" },
 ];
 
 function PortfolioCard({ item, index }) {

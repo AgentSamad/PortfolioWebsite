@@ -49,34 +49,6 @@
     "googlePlayLink": "https://play.google.com/store/apps/details?id=com.MoodGames.TrafficJamFever"
   },
   {
-    "id": 4,
-    "title": "Game Base - Unity Framework",
-    "category": "Tools",
-    "image": "./assets/images/game-base.jpg",
-    "alt": "Game Base Framework",
-    "link": "https://github.com/AgentSamad",
-    "logo": "./assets/images/game-base.jpg",
-    "screenshots": [
-      "./assets/images/game-base.jpg"
-    ],
-    "description": "Reusable project framework built on a ScriptableObject-driven data architecture with custom Unity Editor windows for level design and content authoring, cutting new project setup time by around 30%. Includes an in-game store and skin inventory system.",
-    "customLink": "https://github.com/AgentSamad"
-  },
-  {
-    "id": 5,
-    "title": "Mesh Fusion Tool",
-    "category": "Tools",
-    "image": "./assets/images/mesh-fusion.jpg",
-    "alt": "Mesh Fusion Tool",
-    "link": "https://github.com/AgentSamad",
-    "logo": "./assets/images/mesh-fusion.jpg",
-    "screenshots": [
-      "./assets/images/mesh-fusion.jpg"
-    ],
-    "description": "Unity Editor extension that merges multiple meshes into a single mesh and generates a material atlas, significantly reducing draw calls and improving GPU performance on mobile.",
-    "customLink": "https://github.com/AgentSamad"
-  },
-  {
     "id": 6,
     "title": "Neon Grid Rush",
     "category": "Mobile Casual",
@@ -272,5 +244,97 @@
     ],
     "description": "Upgrade the features you want your aircraft to be strong. Destroy the enemies and their base!",
     "appStoreLink": "https://apps.apple.com/sa/app/aircraft-evolution/id1626288181"
+  },
+  {
+    "id": 17,
+    "title": "Bee Bomb",
+    "category": "Mobile Casual",
+    "image": "./assets/images/bee-bomb.jpg",
+    "alt": "Bee Bomb",
+    "link": "https://apps.apple.com/sa/app/bee-bomb/id1620870878",
+    "logo": "./assets/images/bee-bomb.jpg",
+    "screenshots": [
+      "./assets/images/bee-bomb-01.jpg",
+      "./assets/images/bee-bomb-02.jpg",
+      "./assets/images/bee-bomb-03.jpg",
+      "./assets/images/bee-bomb-04.jpg",
+      "./assets/images/bee-bomb-05.jpg",
+      "./assets/images/bee-bomb-06.jpg"
+    ],
+    "description": "Throw the jar of bees at the enemy and eelease the bees in the jar ! Let the bees bite the enemies",
+    "appStoreLink": "https://apps.apple.com/sa/app/bee-bomb/id1620870878"
+  },
+  {
+    "id": 18,
+    "title": "Elemental Couple",
+    "category": "Mobile Casual",
+    "image": "./assets/images/elemental-couple.jpg",
+    "alt": "Elemental Couple",
+    "link": "https://apps.apple.com/sa/app/elemental-couple/id1610981153",
+    "logo": "./assets/images/elemental-couple.jpg",
+    "screenshots": [
+      "./assets/images/elemental-couple-01.jpg",
+      "./assets/images/elemental-couple-02.jpg",
+      "./assets/images/elemental-couple-03.jpg",
+      "./assets/images/elemental-couple-04.jpg",
+      "./assets/images/elemental-couple-05.jpg",
+      "./assets/images/elemental-couple-06.jpg"
+    ],
+    "description": "Collect the right elements and level up. Merge to defeat enemies and overcome obstacles !",
+    "appStoreLink": "https://apps.apple.com/sa/app/elemental-couple/id1610981153"
+  },
+  {
+    "id": 19,
+    "title": "Airline Empire!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/airline-empire.jpg",
+    "alt": "Airline Empire!",
+    "link": "https://apps.apple.com/sa/app/airline-empire/id1637081488",
+    "logo": "./assets/images/airline-empire.jpg",
+    "screenshots": [
+      "./assets/images/airline-empire-01.jpg",
+      "./assets/images/airline-empire-02.jpg",
+      "./assets/images/airline-empire-03.jpg",
+      "./assets/images/airline-empire-04.jpg",
+      "./assets/images/airline-empire-05.jpg",
+      "./assets/images/airline-empire-06.jpg"
+    ],
+    "description": "Collect passengers and board the planes. Manage your own airline",
+    "appStoreLink": "https://apps.apple.com/sa/app/airline-empire/id1637081488"
+  },
+  {
+    "id": 20,
+    "title": "Police Quest!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/police-quest.jpg",
+    "alt": "Police Quest!",
+    "link": "https://play.google.com/store/apps/details?id=com.al.policequest&hl=en",
+    "logo": "./assets/images/police-quest.jpg",
+    "screenshots": [
+      "./assets/images/police-quest-02.jpg",
+      "./assets/images/police-quest-03.jpg",
+      "./assets/images/police-quest-04.jpg",
+      "./assets/images/police-quest-05.jpg"
+    ],
+    "description": "&quot;Police Quest&quot; is a thrilling and realistic police simulation game that immerses players in the world of law enforcement. With a wide range of mini games, players can experience the excitement and challenges of fighting crime from multiple angles.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.al.policequest&hl=en"
+  },
+  {
+    "id": 21,
+    "title": "Animal Rescue - Zoo Safari",
+    "category": "Mobile Casual",
+    "image": "./assets/images/animal-rescue-zoo-safari.jpg",
+    "alt": "Animal Rescue - Zoo Safari",
+    "link": "https://play.google.com/store/apps/details?id=com.al.animalrescue",
+    "logo": "./assets/images/animal-rescue-zoo-safari.jpg",
+    "screenshots": [
+      "./assets/images/animal-rescue-zoo-safari-02.jpg",
+      "./assets/images/animal-rescue-zoo-safari-03.jpg",
+      "./assets/images/animal-rescue-zoo-safari-04.jpg",
+      "./assets/images/animal-rescue-zoo-safari-05.jpg",
+      "./assets/images/animal-rescue-zoo-safari-06.jpg"
+    ],
+    "description": "Come and play Animal Rescue - Zoo Safari, animal games where you can get to rescue and move animals to your own zoo. Be a zoo keeper and treat animals so they can go back to the wild, while you become a zoo tycoon and create a whole planet zoo of your making. The animal kingdom awaits as you bring hybrid animals for the animal merge at the zoo.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.al.animalrescue"
   }
 ]
