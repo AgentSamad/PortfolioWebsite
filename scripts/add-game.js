@@ -86,6 +86,7 @@ function detectStore(url) {
   if (url.includes("store.steampowered.com")) return "steam";
   if (url.includes("play.google.com")) return "googleplay";
   if (url.includes("apps.apple.com")) return "appstore";
+  if (url.includes("apkpure.com")) return "apkpure";
   return null;
 }
 
@@ -281,6 +282,88 @@ async function parseAppStore(url) {
   };
 }
 
+async function parseApkPure(url) {
+  // APKPure URLs: https://apkpure.com/<slug>/<package.id>
+  // Extract package ID and try Google Play first (APKPure has Cloudflare protection)
+  const parts = new URL(url).pathname.split("/").filter(Boolean);
+  const packageId = parts.length >= 2 ? parts[parts.length - 1] : null;
+  const slugName = parts.length >= 2 ? parts[parts.length - 2] : null;
+
+  if (!packageId || !packageId.includes(".")) {
+    throw new Error("Could not extract package ID from APKPure URL. Expected format: apkpure.com/<name>/<package.id>");
+  }
+
+  console.log(`  Package ID: ${packageId}`);
+  console.log("  Fetching data from Google Play (APKPure has Cloudflare protection)...");
+
+  // Try Google Play first since it has the same package data
+  const gpUrl = `https://play.google.com/store/apps/details?id=${packageId}`;
+  try {
+    const result = await parseGooglePlay(gpUrl);
+    result.storeLink = url;
+    return result;
+  } catch (e) {
+    console.log(`  Google Play fetch failed: ${e.message}`);
+    console.log("  Trying APKPure direct fetch...");
+  }
+
+  // Fallback: try fetching APKPure HTML directly (may fail due to Cloudflare)
+  let html;
+  try {
+    html = await fetchText(url);
+  } catch (e) {
+    throw new Error(`Could not fetch APKPure page: ${e.message}. Try providing the Google Play link instead.`);
+  }
+
+  // If we got Cloudflare challenge page, bail
+  if (html.includes("Just a moment") || html.includes("cf-browser-verification") || html.includes("challenge-platform")) {
+    throw new Error("APKPure returned Cloudflare challenge. Try providing the Google Play link instead: " + gpUrl);
+  }
+
+  // Parse the HTML
+  const titleMatch = html.match(/<h1[^>]*>([^<]+)<\/h1>/);
+  const title = titleMatch ? htmlDecode(titleMatch[1].trim()) : (slugName ? slugName.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase()) : "Unknown Game");
+
+  const metaDesc = html.match(/<meta\s+name="description"\s+content="([^"]+)"/);
+  const ogDesc = html.match(/<meta\s+property="og:description"\s+content="([^"]+)"/);
+  const description = metaDesc ? htmlDecode(metaDesc[1].replace(/\d+\.\d+ APK download for Android\.\s*/, "")) : (ogDesc ? htmlDecode(ogDesc[1]) : "");
+
+  // Icon from app-icon class
+  const iconMatch = html.match(/class="app-icon"[^>]*>\s*<img[^>]+src="([^"]+)"/) ||
+    html.match(/<meta\s+property="og:image"\s+content="([^"]+)"/);
+  let iconUrl = iconMatch ? iconMatch[1] : null;
+  if (iconUrl) iconUrl = iconUrl.replace(/\?w=\d+/, "?w=512");
+
+  // Screenshots from screenshot-item links (more reliable than data-src which gets cleared by lazy loading)
+  const ssRegex = /class="screenshots-item[^"]*"\s+href="(https:\/\/image\.winudf\.com\/[^"]+)"/g;
+  const screenshots = [];
+  let ssMatch;
+  while ((ssMatch = ssRegex.exec(html)) !== null && screenshots.length < 6) {
+    let ssUrl = ssMatch[1];
+    if (!screenshots.includes(ssUrl)) screenshots.push(ssUrl);
+  }
+
+  // Fallback: try data-src on lazy_screen images
+  if (screenshots.length === 0) {
+    const dsRegex = /data-src="(https:\/\/image\.winudf\.com\/[^"]+screen[^"]+)"/g;
+    let dsMatch;
+    while ((dsMatch = dsRegex.exec(html)) !== null && screenshots.length < 6) {
+      let dsUrl = dsMatch[1].replace(/\?h=\d+/, "?h=800");
+      if (!screenshots.includes(dsUrl)) screenshots.push(dsUrl);
+    }
+  }
+
+  return {
+    title,
+    description,
+    iconUrl,
+    screenshots,
+    category: "Mobile Casual",
+    storeLink: url,
+    linkType: "googlePlayLink",
+  };
+}
+
 // ── Main ─────────────────────────────────────────────────────────────
 
 async function main() {
@@ -298,6 +381,7 @@ async function main() {
     - Steam          (store.steampowered.com)
     - Google Play    (play.google.com)
     - App Store      (apps.apple.com)
+    - APKPure        (apkpure.com)
 
   Options:
     --category "PC Steam"   Override category (default: auto-detected)
@@ -309,6 +393,7 @@ async function main() {
     node scripts/add-game.js https://store.steampowered.com/app/971470/Scary_Teacher_3D/
     node scripts/add-game.js https://play.google.com/store/apps/details?id=com.game.id
     node scripts/add-game.js https://apps.apple.com/us/app/coin-sort/id6446354191
+    node scripts/add-game.js https://apkpure.com/scary-teacher-3d/com.zakg.scaryteacher.hellgame
     node scripts/add-game.js https://play.google.com/store/apps/details?id=com.game.id --video https://youtube.com/watch?v=xxx
 
   npm shortcut:
@@ -322,7 +407,7 @@ async function main() {
 
   if (!store) {
     console.error("\n  Error: Unrecognized store URL.");
-    console.error("  Supported: Steam, Google Play, App Store.\n");
+    console.error("  Supported: Steam, Google Play, App Store, APKPure.\n");
     process.exit(1);
   }
 
@@ -342,6 +427,7 @@ async function main() {
     if (store === "steam") data = await parseSteam(storeUrl);
     else if (store === "googleplay") data = await parseGooglePlay(storeUrl);
     else if (store === "appstore") data = await parseAppStore(storeUrl);
+    else if (store === "apkpure") data = await parseApkPure(storeUrl);
   } catch (err) {
     console.error(`\n  Error: ${err.message}`);
     process.exit(1);

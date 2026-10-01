@@ -336,5 +336,190 @@
     ],
     "description": "Come and play Animal Rescue - Zoo Safari, animal games where you can get to rescue and move animals to your own zoo. Be a zoo keeper and treat animals so they can go back to the wild, while you become a zoo tycoon and create a whole planet zoo of your making. The animal kingdom awaits as you bring hybrid animals for the animal merge at the zoo.",
     "googlePlayLink": "https://play.google.com/store/apps/details?id=com.al.animalrescue"
+  },
+  {
+    "id": 22,
+    "title": "Weapon Merge",
+    "category": "Mobile Casual",
+    "image": "./assets/images/weapon-merge.webp",
+    "alt": "Weapon Merge",
+    "link": "https://apkpure.com/weapon-merge/com.MoodGames.WeaponMerge",
+    "logo": "./assets/images/weapon-merge.webp",
+    "screenshots": [
+      "./assets/images/weapon-merge-01.webp",
+      "./assets/images/weapon-merge-02.webp",
+      "./assets/images/weapon-merge-03.webp",
+      "./assets/images/weapon-merge-04.webp",
+      "./assets/images/weapon-merge-05.webp",
+      "./assets/images/weapon-merge-06.webp"
+    ],
+    "description": "Merge weapons and get more powerful weapons. Kill all enemies in one hit.",
+    "googlePlayLink": "https://apkpure.com/weapon-merge/com.MoodGames.WeaponMerge"
+  },
+  {
+    "id": 23,
+    "title": "Coin Hitter ASMR",
+    "category": "Mobile Casual",
+    "image": "./assets/images/coin-hitter-asmr.webp",
+    "alt": "Coin Hitter ASMR",
+    "link": "https://apkpure.com/coin-hitter-asmr/com.MoodGames.CoinHitterASMR",
+    "logo": "./assets/images/coin-hitter-asmr.webp",
+    "screenshots": [
+      "./assets/images/coin-hitter-asmr-01.webp",
+      "./assets/images/coin-hitter-asmr-02.webp",
+      "./assets/images/coin-hitter-asmr-03.webp",
+      "./assets/images/coin-hitter-asmr-04.webp",
+      "./assets/images/coin-hitter-asmr-05.webp",
+      "./assets/images/coin-hitter-asmr-06.webp"
+    ],
+    "description": "Add balls to the platform, merge balls and knock everything down.",
+    "googlePlayLink": "https://apkpure.com/coin-hitter-asmr/com.MoodGames.CoinHitterASMR"
+  },
+  {
+    "id": 24,
+    "title": "Beast Hunter!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/beast-hunter.webp",
+    "alt": "Beast Hunter!",
+    "link": "https://apkpure.com/beast-hunter/com.MoodGames.BeastHunter",
+    "logo": "./assets/images/beast-hunter.webp",
+    "screenshots": [
+      "./assets/images/beast-hunter-01.webp",
+      "./assets/images/beast-hunter-02.webp",
+      "./assets/images/beast-hunter-03.webp",
+      "./assets/images/beast-hunter-04.webp",
+      "./assets/images/beast-hunter-05.webp",
+      "./assets/images/beast-hunter-06.webp"
+    ],
+    "description": "Prepare your ballista, take aim and shoot Dragons or Sharks. Be careful after shot, they will fight back!",
+    "googlePlayLink": "https://apkpure.com/beast-hunter/com.MoodGames.BeastHunter"
+  },
+  {
+    "id": 25,
+    "title": "The First Men",
+    "category": "Mobile Casual",
+    "image": "./assets/images/the-first-men.webp",
+    "alt": "The First Men",
+    "link": "https://apkpure.com/the-first-men/com.MoodGames.TheFirstMen",
+    "logo": "./assets/images/the-first-men.webp",
+    "screenshots": [
+      "./assets/images/the-first-men-01.webp",
+      "./assets/images/the-first-men-02.webp",
+      "./assets/images/the-first-men-03.webp",
+      "./assets/images/the-first-men-04.webp",
+      "./assets/images/the-first-men-05.webp",
+      "./assets/images/the-first-men-06.webp"
+    ],
+    "description": "Experience the ancient ages! Imagine you are the first human, you have to make your weapon, hunt for your food, survive wild animals! You even have to invent the Wheel!",
+    "googlePlayLink": "https://apkpure.com/the-first-men/com.MoodGames.TheFirstMen"
+  },
+  {
+    "id": 26,
+    "title": "Arrow Giant - Slayer Archer",
+    "category": "Mobile Casual",
+    "image": "./assets/images/arrow-giant-slayer-archer.webp",
+    "alt": "Arrow Giant - Slayer Archer",
+    "link": "https://apkpure.com/arrow-giant-slayer-archer/arrow.giant.slayer.archer",
+    "logo": "./assets/images/arrow-giant-slayer-archer.webp",
+    "screenshots": [
+      "./assets/images/arrow-giant-slayer-archer-01.webp",
+      "./assets/images/arrow-giant-slayer-archer-02.webp",
+      "./assets/images/arrow-giant-slayer-archer-03.webp",
+      "./assets/images/arrow-giant-slayer-archer-04.webp",
+      "./assets/images/arrow-giant-slayer-archer-05.webp",
+      "./assets/images/arrow-giant-slayer-archer-06.webp"
+    ],
+    "description": "Multiple arrows and destroy the giant before the giant reaches you.",
+    "googlePlayLink": "https://apkpure.com/arrow-giant-slayer-archer/arrow.giant.slayer.archer"
+  },
+  {
+    "id": 27,
+    "title": "Find and Match",
+    "category": "Mobile Casual",
+    "image": "./assets/images/find-and-match.webp",
+    "alt": "Find and Match",
+    "link": "https://apkpure.com/find-and-match/com.MoodGames.FindandMatch",
+    "logo": "./assets/images/find-and-match.webp",
+    "screenshots": [
+      "./assets/images/find-and-match.webp"
+    ],
+    "description": "Match objects correctly by turning the platform.",
+    "googlePlayLink": "https://apkpure.com/find-and-match/com.MoodGames.FindandMatch"
+  },
+  {
+    "id": 28,
+    "title": "Money Fever",
+    "category": "Mobile Casual",
+    "image": "./assets/images/money-fever.webp",
+    "alt": "Money Fever",
+    "link": "https://apkpure.com/money-fever/com.MoodGames.MoneyFever",
+    "logo": "./assets/images/money-fever.webp",
+    "screenshots": [
+      "./assets/images/money-fever-01.webp",
+      "./assets/images/money-fever-02.webp",
+      "./assets/images/money-fever-03.webp",
+      "./assets/images/money-fever-04.webp",
+      "./assets/images/money-fever-05.webp",
+      "./assets/images/money-fever-06.webp"
+    ],
+    "description": "Keep the money flowing and buy the product you want!",
+    "googlePlayLink": "https://apkpure.com/money-fever/com.MoodGames.MoneyFever"
+  },
+  {
+    "id": 29,
+    "title": "Blobby Rush",
+    "category": "Mobile Casual",
+    "image": "./assets/images/blobby-rush.webp",
+    "alt": "Blobby Rush",
+    "link": "https://apkpure.com/blobby-rush/com.MoodGames.BlobbyRush",
+    "logo": "./assets/images/blobby-rush.webp",
+    "screenshots": [
+      "./assets/images/blobby-rush-01.webp",
+      "./assets/images/blobby-rush-02.webp",
+      "./assets/images/blobby-rush-03.webp",
+      "./assets/images/blobby-rush-04.webp",
+      "./assets/images/blobby-rush-05.webp",
+      "./assets/images/blobby-rush-06.webp"
+    ],
+    "description": "Escape the room before it freezes you with the freezing gun. Go through walls without being seen by enemies, open the door and go to the exit.",
+    "googlePlayLink": "https://apkpure.com/blobby-rush/com.MoodGames.BlobbyRush"
+  },
+  {
+    "id": 30,
+    "title": "Balloon Battle!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/balloon-battle.webp",
+    "alt": "Balloon Battle!",
+    "link": "https://apkpure.com/balloon-battle%E2%80%AA-%E2%80%AC/com.MoodGames.BalloonBattle",
+    "logo": "./assets/images/balloon-battle.webp",
+    "screenshots": [
+      "./assets/images/balloon-battle-01.webp",
+      "./assets/images/balloon-battle-02.webp",
+      "./assets/images/balloon-battle-03.webp",
+      "./assets/images/balloon-battle-04.webp",
+      "./assets/images/balloon-battle-05.webp",
+      "./assets/images/balloon-battle-06.webp"
+    ],
+    "description": "Shoot their balloon to make them slower. And shoot speed-up balloons to fly faster. Be careful about your balloons. Enjoy It!",
+    "googlePlayLink": "https://apkpure.com/balloon-battle%E2%80%AA-%E2%80%AC/com.MoodGames.BalloonBattle"
+  },
+  {
+    "id": 31,
+    "title": "Coins & Holes",
+    "category": "Mobile Casual",
+    "image": "./assets/images/coins-holes.webp",
+    "alt": "Coins & Holes",
+    "link": "https://apkpure.com/coins-holes/com.MoodGames.CoinsHoles",
+    "logo": "./assets/images/coins-holes.webp",
+    "screenshots": [
+      "./assets/images/coins-holes-01.webp",
+      "./assets/images/coins-holes-02.webp",
+      "./assets/images/coins-holes-03.webp",
+      "./assets/images/coins-holes-04.webp",
+      "./assets/images/coins-holes-05.webp",
+      "./assets/images/coins-holes-06.webp"
+    ],
+    "description": "Enlarge the holes and collect the more valuable ones.",
+    "googlePlayLink": "https://apkpure.com/coins-holes/com.MoodGames.CoinsHoles"
   }
 ]
