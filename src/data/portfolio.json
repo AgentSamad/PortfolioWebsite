@@ -521,5 +521,895 @@
     ],
     "description": "Enlarge the holes and collect the more valuable ones.",
     "googlePlayLink": "https://apkpure.com/coins-holes/com.MoodGames.CoinsHoles"
+  },
+  {
+    "id": 32,
+    "title": "Traffic Expert",
+    "category": "Mobile Casual",
+    "image": "./assets/images/traffic-expert.jpg",
+    "alt": "Traffic Expert",
+    "link": "https://apps.apple.com/us/app/traffic-expert/id1616816143?uo=4",
+    "logo": "./assets/images/traffic-expert.jpg",
+    "screenshots": [
+      "./assets/images/traffic-expert-01.jpg",
+      "./assets/images/traffic-expert-02.jpg",
+      "./assets/images/traffic-expert-03.jpg",
+      "./assets/images/traffic-expert-04.jpg",
+      "./assets/images/traffic-expert-05.jpg",
+      "./assets/images/traffic-expert-06.jpg"
+    ],
+    "description": "Try to open up the traffic jam by building new roads",
+    "appStoreLink": "https://apps.apple.com/us/app/traffic-expert/id1616816143?uo=4"
+  },
+  {
+    "id": 33,
+    "title": "Mr President 3D",
+    "category": "Mobile Casual",
+    "image": "./assets/images/mr-president-3d.jpg",
+    "alt": "Mr President 3D",
+    "link": "https://apps.apple.com/us/app/mr-president-3d/id1533070097?uo=4",
+    "logo": "./assets/images/mr-president-3d.jpg",
+    "screenshots": [
+      "./assets/images/mr-president-3d-01.jpg",
+      "./assets/images/mr-president-3d-02.jpg",
+      "./assets/images/mr-president-3d-03.jpg",
+      "./assets/images/mr-president-3d-04.jpg",
+      "./assets/images/mr-president-3d-05.jpg",
+      "./assets/images/mr-president-3d-06.jpg"
+    ],
+    "description": "Are you ready to rule the world? You are the President right now and everything is in your hand. Will you save the world or make it worse?",
+    "appStoreLink": "https://apps.apple.com/us/app/mr-president-3d/id1533070097?uo=4"
+  },
+  {
+    "id": 34,
+    "title": "Hunting Season!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/hunting-season.jpg",
+    "alt": "Hunting Season!",
+    "link": "https://apps.apple.com/us/app/hunting-season/id1542257177?uo=4",
+    "logo": "./assets/images/hunting-season.jpg",
+    "screenshots": [
+      "./assets/images/hunting-season-01.jpg",
+      "./assets/images/hunting-season-02.jpg",
+      "./assets/images/hunting-season-03.jpg",
+      "./assets/images/hunting-season-04.jpg",
+      "./assets/images/hunting-season-05.jpg",
+      "./assets/images/hunting-season-06.jpg"
+    ],
+    "description": "Become a wild tiger and chase your prey. Experience the wildlife. Let the hunt begin!",
+    "appStoreLink": "https://apps.apple.com/us/app/hunting-season/id1542257177?uo=4"
+  },
+  {
+    "id": 35,
+    "title": "Airborne Squad 3D",
+    "category": "Mobile Casual",
+    "image": "./assets/images/airborne-squad-3d.jpg",
+    "alt": "Airborne Squad 3D",
+    "link": "https://apps.apple.com/us/app/airborne-squad-3d/id1520396268?uo=4",
+    "logo": "./assets/images/airborne-squad-3d.jpg",
+    "screenshots": [
+      "./assets/images/airborne-squad-3d-01.jpg",
+      "./assets/images/airborne-squad-3d-02.jpg",
+      "./assets/images/airborne-squad-3d-03.jpg",
+      "./assets/images/airborne-squad-3d-04.jpg",
+      "./assets/images/airborne-squad-3d-05.jpg",
+      "./assets/images/airborne-squad-3d-06.jpg"
+    ],
+    "description": "Jump into the enemy zone and kill them all for victory. Recruit new soldiers or upgrade your team before attack.",
+    "appStoreLink": "https://apps.apple.com/us/app/airborne-squad-3d/id1520396268?uo=4"
+  },
+  {
+    "id": 36,
+    "title": "City Delivery Tycoon",
+    "category": "Mobile Casual",
+    "image": "./assets/images/city-delivery-tycoon.jpg",
+    "alt": "City Delivery Tycoon",
+    "link": "https://apps.apple.com/us/app/city-delivery-tycoon/id6736363119?uo=4",
+    "logo": "./assets/images/city-delivery-tycoon.jpg",
+    "screenshots": [
+      "./assets/images/city-delivery-tycoon-01.jpg",
+      "./assets/images/city-delivery-tycoon-02.jpg",
+      "./assets/images/city-delivery-tycoon-03.jpg",
+      "./assets/images/city-delivery-tycoon-04.jpg",
+      "./assets/images/city-delivery-tycoon-05.jpg",
+      "./assets/images/city-delivery-tycoon-06.jpg"
+    ],
+    "description": "Take charge in City Delivery Tycoon! In this thrilling idle simulation, you’ll manage and grow your cargo company, aiming to deliver packages faster and more efficiently. Tap, upgrade, and expand your fleet to handle larger deliveries and reach more customers.",
+    "appStoreLink": "https://apps.apple.com/us/app/city-delivery-tycoon/id6736363119?uo=4"
+  },
+  {
+    "id": 37,
+    "title": "Fashion Creator!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/fashion-creator.jpg",
+    "alt": "Fashion Creator!",
+    "link": "https://apps.apple.com/us/app/fashion-creator/id6449453627?uo=4",
+    "logo": "./assets/images/fashion-creator.jpg",
+    "screenshots": [
+      "./assets/images/fashion-creator-01.jpg",
+      "./assets/images/fashion-creator-02.jpg",
+      "./assets/images/fashion-creator-03.jpg",
+      "./assets/images/fashion-creator-04.jpg",
+      "./assets/images/fashion-creator-05.jpg",
+      "./assets/images/fashion-creator-06.jpg"
+    ],
+    "description": "Design, create and show your dresses on the podium",
+    "appStoreLink": "https://apps.apple.com/us/app/fashion-creator/id6449453627?uo=4"
+  },
+  {
+    "id": 38,
+    "title": "Match The Makeup",
+    "category": "Mobile Casual",
+    "image": "./assets/images/match-the-makeup.jpg",
+    "alt": "Match The Makeup",
+    "link": "https://apps.apple.com/us/app/match-the-makeup/id6444615908?uo=4",
+    "logo": "./assets/images/match-the-makeup.jpg",
+    "screenshots": [
+      "./assets/images/match-the-makeup-01.jpg",
+      "./assets/images/match-the-makeup-02.jpg",
+      "./assets/images/match-the-makeup-03.jpg",
+      "./assets/images/match-the-makeup-04.jpg",
+      "./assets/images/match-the-makeup-05.jpg",
+      "./assets/images/match-the-makeup-06.jpg"
+    ],
+    "description": "Try to complete the right makeup by mixing the colors correctly",
+    "appStoreLink": "https://apps.apple.com/us/app/match-the-makeup/id6444615908?uo=4"
+  },
+  {
+    "id": 39,
+    "title": "Cowboy Duel 3D",
+    "category": "Mobile Casual",
+    "image": "./assets/images/cowboy-duel-3d.jpg",
+    "alt": "Cowboy Duel 3D",
+    "link": "https://apps.apple.com/us/app/cowboy-duel-3d/id1494883325?uo=4",
+    "logo": "./assets/images/cowboy-duel-3d.jpg",
+    "screenshots": [
+      "./assets/images/cowboy-duel-3d-01.jpg",
+      "./assets/images/cowboy-duel-3d-02.jpg",
+      "./assets/images/cowboy-duel-3d-03.jpg",
+      "./assets/images/cowboy-duel-3d-04.jpg",
+      "./assets/images/cowboy-duel-3d-05.jpg",
+      "./assets/images/cowboy-duel-3d-06.jpg"
+    ],
+    "description": "Are you ready for wild west! Be ready, be fast and win.",
+    "appStoreLink": "https://apps.apple.com/us/app/cowboy-duel-3d/id1494883325?uo=4"
+  },
+  {
+    "id": 40,
+    "title": "Perfect Heist!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/perfect-heist.jpg",
+    "alt": "Perfect Heist!",
+    "link": "https://apps.apple.com/us/app/perfect-heist/id1550932306?uo=4",
+    "logo": "./assets/images/perfect-heist.jpg",
+    "screenshots": [
+      "./assets/images/perfect-heist-01.jpg",
+      "./assets/images/perfect-heist-02.jpg",
+      "./assets/images/perfect-heist-03.jpg",
+      "./assets/images/perfect-heist-04.jpg",
+      "./assets/images/perfect-heist-05.jpg",
+      "./assets/images/perfect-heist-06.jpg"
+    ],
+    "description": "Be mastermind of the heist! Keep people balanced during Heist! You must be careful about hostages!  Be \"safe master\" and open the safe very carefully!  Or just blow-up the wall and stole the safe with your car! And be ready for police chase scene.",
+    "appStoreLink": "https://apps.apple.com/us/app/perfect-heist/id1550932306?uo=4"
+  },
+  {
+    "id": 41,
+    "title": "Control Your Man",
+    "category": "Mobile Casual",
+    "image": "./assets/images/control-your-man.jpg",
+    "alt": "Control Your Man",
+    "link": "https://apps.apple.com/us/app/control-your-man/id1611955322?uo=4",
+    "logo": "./assets/images/control-your-man.jpg",
+    "screenshots": [
+      "./assets/images/control-your-man-01.jpg",
+      "./assets/images/control-your-man-02.jpg",
+      "./assets/images/control-your-man-03.jpg",
+      "./assets/images/control-your-man-04.jpg",
+      "./assets/images/control-your-man-05.jpg",
+      "./assets/images/control-your-man-06.jpg"
+    ],
+    "description": "Strengthen your relationship and take control. The stronger your bond with your man, the closer your man will stand.",
+    "appStoreLink": "https://apps.apple.com/us/app/control-your-man/id1611955322?uo=4"
+  },
+  {
+    "id": 42,
+    "title": "Train Manager!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/train-manager.jpg",
+    "alt": "Train Manager!",
+    "link": "https://apps.apple.com/us/app/train-manager/id1621752051?uo=4",
+    "logo": "./assets/images/train-manager.jpg",
+    "screenshots": [
+      "./assets/images/train-manager-01.jpg",
+      "./assets/images/train-manager-02.jpg",
+      "./assets/images/train-manager-03.jpg",
+      "./assets/images/train-manager-04.jpg",
+      "./assets/images/train-manager-05.jpg",
+      "./assets/images/train-manager-06.jpg"
+    ],
+    "description": "Manage the train. Put coal on the train, collect the money for meals and tickets for the passengers",
+    "appStoreLink": "https://apps.apple.com/us/app/train-manager/id1621752051?uo=4"
+  },
+  {
+    "id": 43,
+    "title": "Teleport Ninja 3D",
+    "category": "Mobile Casual",
+    "image": "./assets/images/teleport-ninja-3d.jpg",
+    "alt": "Teleport Ninja 3D",
+    "link": "https://apps.apple.com/us/app/teleport-ninja-3d/id1537170474?uo=4",
+    "logo": "./assets/images/teleport-ninja-3d.jpg",
+    "screenshots": [
+      "./assets/images/teleport-ninja-3d-01.jpg",
+      "./assets/images/teleport-ninja-3d-02.jpg",
+      "./assets/images/teleport-ninja-3d-03.jpg",
+      "./assets/images/teleport-ninja-3d-04.jpg",
+      "./assets/images/teleport-ninja-3d-05.jpg"
+    ],
+    "description": "Teleport behind them, and kill them with your awesome skills!",
+    "appStoreLink": "https://apps.apple.com/us/app/teleport-ninja-3d/id1537170474?uo=4"
+  },
+  {
+    "id": 44,
+    "title": "Subway Crowd!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/subway-crowd.jpg",
+    "alt": "Subway Crowd!",
+    "link": "https://apps.apple.com/us/app/subway-crowd/id1661510066?uo=4",
+    "logo": "./assets/images/subway-crowd.jpg",
+    "screenshots": [
+      "./assets/images/subway-crowd-01.jpg",
+      "./assets/images/subway-crowd-02.jpg",
+      "./assets/images/subway-crowd-03.jpg",
+      "./assets/images/subway-crowd-04.jpg",
+      "./assets/images/subway-crowd-05.jpg"
+    ],
+    "description": "Passengers are multiplying. Develop and grow trains. Get everyone on the trains",
+    "appStoreLink": "https://apps.apple.com/us/app/subway-crowd/id1661510066?uo=4"
+  },
+  {
+    "id": 45,
+    "title": "Head Smash",
+    "category": "Mobile Casual",
+    "image": "./assets/images/head-smash.jpg",
+    "alt": "Head Smash",
+    "link": "https://apps.apple.com/us/app/head-smash/id1565197692?uo=4",
+    "logo": "./assets/images/head-smash.jpg",
+    "screenshots": [
+      "./assets/images/head-smash-01.jpg",
+      "./assets/images/head-smash-02.jpg",
+      "./assets/images/head-smash-03.jpg",
+      "./assets/images/head-smash-04.jpg",
+      "./assets/images/head-smash-05.jpg"
+    ],
+    "description": "Smash his Head to the objects and be careful about some objects, they may hurt too much.",
+    "appStoreLink": "https://apps.apple.com/us/app/head-smash/id1565197692?uo=4"
+  },
+  {
+    "id": 46,
+    "title": "Caravan Runner",
+    "category": "Mobile Casual",
+    "image": "./assets/images/caravan-runner.jpg",
+    "alt": "Caravan Runner",
+    "link": "https://apps.apple.com/us/app/caravan-runner/id1604548094?uo=4",
+    "logo": "./assets/images/caravan-runner.jpg",
+    "screenshots": [
+      "./assets/images/caravan-runner-01.jpg",
+      "./assets/images/caravan-runner-02.jpg",
+      "./assets/images/caravan-runner-03.jpg",
+      "./assets/images/caravan-runner-04.jpg",
+      "./assets/images/caravan-runner-05.jpg",
+      "./assets/images/caravan-runner-06.jpg"
+    ],
+    "description": "Collect caravans full of money, upgrade your car and transport coins more easily. Reach the end of the road without getting caught by the police",
+    "appStoreLink": "https://apps.apple.com/us/app/caravan-runner/id1604548094?uo=4"
+  },
+  {
+    "id": 47,
+    "title": "Hammer Smash!.",
+    "category": "Mobile Casual",
+    "image": "./assets/images/hammer-smash.jpg",
+    "alt": "Hammer Smash!.",
+    "link": "https://apps.apple.com/us/app/hammer-smash/id1559219333?uo=4",
+    "logo": "./assets/images/hammer-smash.jpg",
+    "screenshots": [
+      "./assets/images/hammer-smash-01.jpg",
+      "./assets/images/hammer-smash-02.jpg",
+      "./assets/images/hammer-smash-03.jpg",
+      "./assets/images/hammer-smash-04.jpg",
+      "./assets/images/hammer-smash-05.jpg",
+      "./assets/images/hammer-smash-06.jpg"
+    ],
+    "description": "Throw your Hammer and smash the Giants! As you smash small ones Boss will be even bigger and stronger. Good luck with that!",
+    "appStoreLink": "https://apps.apple.com/us/app/hammer-smash/id1559219333?uo=4"
+  },
+  {
+    "id": 48,
+    "title": "Octopus Run!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/octopus-run.jpg",
+    "alt": "Octopus Run!",
+    "link": "https://apps.apple.com/us/app/octopus-run/id1592310312?uo=4",
+    "logo": "./assets/images/octopus-run.jpg",
+    "screenshots": [
+      "./assets/images/octopus-run-01.jpg",
+      "./assets/images/octopus-run-02.jpg",
+      "./assets/images/octopus-run-03.jpg",
+      "./assets/images/octopus-run-04.jpg",
+      "./assets/images/octopus-run-05.jpg",
+      "./assets/images/octopus-run-06.jpg"
+    ],
+    "description": "Collect your legs and use your legs to avoid hitting obstacles",
+    "appStoreLink": "https://apps.apple.com/us/app/octopus-run/id1592310312?uo=4"
+  },
+  {
+    "id": 49,
+    "title": "Draw & Clash 3D",
+    "category": "Mobile Casual",
+    "image": "./assets/images/draw-clash-3d.jpg",
+    "alt": "Draw & Clash 3D",
+    "link": "https://apps.apple.com/us/app/draw-clash-3d/id1525694243?uo=4",
+    "logo": "./assets/images/draw-clash-3d.jpg",
+    "screenshots": [
+      "./assets/images/draw-clash-3d-01.jpg",
+      "./assets/images/draw-clash-3d-02.jpg",
+      "./assets/images/draw-clash-3d-03.jpg",
+      "./assets/images/draw-clash-3d-04.jpg",
+      "./assets/images/draw-clash-3d-05.jpg",
+      "./assets/images/draw-clash-3d-06.jpg"
+    ],
+    "description": "Draw your formation, avoid obstacles and fight with your enemies.",
+    "appStoreLink": "https://apps.apple.com/us/app/draw-clash-3d/id1525694243?uo=4"
+  },
+  {
+    "id": 50,
+    "title": "Amuse Me!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/amuse-me.jpg",
+    "alt": "Amuse Me!",
+    "link": "https://apps.apple.com/us/app/amuse-me/id1550932812?uo=4",
+    "logo": "./assets/images/amuse-me.jpg",
+    "screenshots": [
+      "./assets/images/amuse-me-01.jpg",
+      "./assets/images/amuse-me-02.jpg",
+      "./assets/images/amuse-me-03.jpg",
+      "./assets/images/amuse-me-04.jpg",
+      "./assets/images/amuse-me-05.jpg",
+      "./assets/images/amuse-me-06.jpg"
+    ],
+    "description": "Operate the Pirate Ship and make your customers happy. Be careful about it, it's too dangerous!",
+    "appStoreLink": "https://apps.apple.com/us/app/amuse-me/id1550932812?uo=4"
+  },
+  {
+    "id": 51,
+    "title": "Dream Proposal",
+    "category": "Mobile Casual",
+    "image": "./assets/images/dream-proposal.jpg",
+    "alt": "Dream Proposal",
+    "link": "https://apps.apple.com/us/app/dream-proposal/id1587697376?uo=4",
+    "logo": "./assets/images/dream-proposal.jpg",
+    "screenshots": [
+      "./assets/images/dream-proposal-01.jpg",
+      "./assets/images/dream-proposal-02.jpg",
+      "./assets/images/dream-proposal-03.jpg",
+      "./assets/images/dream-proposal-04.jpg",
+      "./assets/images/dream-proposal-05.jpg",
+      "./assets/images/dream-proposal-06.jpg"
+    ],
+    "description": "Create your dream the way you want it. Don't forget your ring for the best dream.",
+    "appStoreLink": "https://apps.apple.com/us/app/dream-proposal/id1587697376?uo=4"
+  },
+  {
+    "id": 52,
+    "title": "Grass Cutter!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/grass-cutter.jpg",
+    "alt": "Grass Cutter!",
+    "link": "https://apps.apple.com/us/app/grass-cutter/id1597496496?uo=4",
+    "logo": "./assets/images/grass-cutter.jpg",
+    "screenshots": [
+      "./assets/images/grass-cutter-01.jpg",
+      "./assets/images/grass-cutter-02.jpg",
+      "./assets/images/grass-cutter-03.jpg",
+      "./assets/images/grass-cutter-04.jpg",
+      "./assets/images/grass-cutter-05.jpg",
+      "./assets/images/grass-cutter-06.jpg"
+    ],
+    "description": "Collect discs and cut the grass. Be careful not to crash into obstacles and break discs.",
+    "appStoreLink": "https://apps.apple.com/us/app/grass-cutter/id1597496496?uo=4"
+  },
+  {
+    "id": 53,
+    "title": "Hyper Drag 3D",
+    "category": "Mobile Casual",
+    "image": "./assets/images/hyper-drag-3d.jpg",
+    "alt": "Hyper Drag 3D",
+    "link": "https://apps.apple.com/us/app/hyper-drag-3d/id1524655043?uo=4",
+    "logo": "./assets/images/hyper-drag-3d.jpg",
+    "screenshots": [
+      "./assets/images/hyper-drag-3d-01.jpg",
+      "./assets/images/hyper-drag-3d-02.jpg",
+      "./assets/images/hyper-drag-3d-03.jpg",
+      "./assets/images/hyper-drag-3d-04.jpg",
+      "./assets/images/hyper-drag-3d-05.jpg",
+      "./assets/images/hyper-drag-3d-06.jpg"
+    ],
+    "description": "Shift gears at the right moment to win the race! Be fastest driver!",
+    "appStoreLink": "https://apps.apple.com/us/app/hyper-drag-3d/id1524655043?uo=4"
+  },
+  {
+    "id": 54,
+    "title": "Tornado Escape",
+    "category": "Mobile Casual",
+    "image": "./assets/images/tornado-escape.jpg",
+    "alt": "Tornado Escape",
+    "link": "https://apps.apple.com/us/app/tornado-escape/id1569582521?uo=4",
+    "logo": "./assets/images/tornado-escape.jpg",
+    "screenshots": [
+      "./assets/images/tornado-escape-01.jpg",
+      "./assets/images/tornado-escape-02.jpg",
+      "./assets/images/tornado-escape-03.jpg",
+      "./assets/images/tornado-escape-04.jpg",
+      "./assets/images/tornado-escape-05.jpg",
+      "./assets/images/tornado-escape-06.jpg"
+    ],
+    "description": "Don't let the tornado swallow you. Be careful, everything comes upon you !",
+    "appStoreLink": "https://apps.apple.com/us/app/tornado-escape/id1569582521?uo=4"
+  },
+  {
+    "id": 55,
+    "title": "Airplane Manager!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/airplane-manager.jpg",
+    "alt": "Airplane Manager!",
+    "link": "https://apps.apple.com/us/app/airplane-manager/id1628607790?uo=4",
+    "logo": "./assets/images/airplane-manager.jpg",
+    "screenshots": [
+      "./assets/images/airplane-manager-01.jpg",
+      "./assets/images/airplane-manager-02.jpg",
+      "./assets/images/airplane-manager-03.jpg",
+      "./assets/images/airplane-manager-04.jpg",
+      "./assets/images/airplane-manager-05.jpg",
+      "./assets/images/airplane-manager-06.jpg"
+    ],
+    "description": "Manage the airplane. Collect passengers' tickets, distribute their meals and upgrade your aircraft.",
+    "appStoreLink": "https://apps.apple.com/us/app/airplane-manager/id1628607790?uo=4"
+  },
+  {
+    "id": 56,
+    "title": "Penguin Rush!.",
+    "category": "Mobile Casual",
+    "image": "./assets/images/penguin-rush.jpg",
+    "alt": "Penguin Rush!.",
+    "link": "https://apps.apple.com/us/app/penguin-rush/id1604812128?uo=4",
+    "logo": "./assets/images/penguin-rush.jpg",
+    "screenshots": [
+      "./assets/images/penguin-rush-01.jpg",
+      "./assets/images/penguin-rush-02.jpg",
+      "./assets/images/penguin-rush-03.jpg",
+      "./assets/images/penguin-rush-04.jpg",
+      "./assets/images/penguin-rush-05.jpg",
+      "./assets/images/penguin-rush-06.jpg"
+    ],
+    "description": "Collect penguins and start flying. Be faster using pipes and watch out for obstacles.",
+    "appStoreLink": "https://apps.apple.com/us/app/penguin-rush/id1604812128?uo=4"
+  },
+  {
+    "id": 57,
+    "title": "Stack Caravan!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/stack-caravan.jpg",
+    "alt": "Stack Caravan!",
+    "link": "https://apps.apple.com/us/app/stack-caravan/id1611954750?uo=4",
+    "logo": "./assets/images/stack-caravan.jpg",
+    "screenshots": [
+      "./assets/images/stack-caravan-01.jpg",
+      "./assets/images/stack-caravan-02.jpg",
+      "./assets/images/stack-caravan-03.jpg",
+      "./assets/images/stack-caravan-04.jpg",
+      "./assets/images/stack-caravan-05.jpg",
+      "./assets/images/stack-caravan-06.jpg"
+    ],
+    "description": "Fill empty caravans with money. Power up your car and get rid of the cops. Get rich!",
+    "appStoreLink": "https://apps.apple.com/us/app/stack-caravan/id1611954750?uo=4"
+  },
+  {
+    "id": 58,
+    "title": "Flash Runner!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/flash-runner.jpg",
+    "alt": "Flash Runner!",
+    "link": "https://apps.apple.com/us/app/flash-runner/id1542469661?uo=4",
+    "logo": "./assets/images/flash-runner.jpg",
+    "screenshots": [
+      "./assets/images/flash-runner-01.jpg",
+      "./assets/images/flash-runner-02.jpg",
+      "./assets/images/flash-runner-03.jpg",
+      "./assets/images/flash-runner-04.jpg",
+      "./assets/images/flash-runner-05.jpg",
+      "./assets/images/flash-runner-06.jpg"
+    ],
+    "description": "You run so fast that all life around slows down. You have to slow down time to time to overcome obstacles.",
+    "appStoreLink": "https://apps.apple.com/us/app/flash-runner/id1542469661?uo=4"
+  },
+  {
+    "id": 59,
+    "title": "Fashion Contest",
+    "category": "Mobile Casual",
+    "image": "./assets/images/fashion-contest.jpg",
+    "alt": "Fashion Contest",
+    "link": "https://apps.apple.com/us/app/fashion-contest/id1560652500?uo=4",
+    "logo": "./assets/images/fashion-contest.jpg",
+    "screenshots": [
+      "./assets/images/fashion-contest-01.jpg",
+      "./assets/images/fashion-contest-02.jpg",
+      "./assets/images/fashion-contest-03.jpg",
+      "./assets/images/fashion-contest-04.jpg",
+      "./assets/images/fashion-contest-05.jpg",
+      "./assets/images/fashion-contest-06.jpg"
+    ],
+    "description": "Stack enough money and buy best clothes.Make best combination and win the contest! Shine like a Star!",
+    "appStoreLink": "https://apps.apple.com/us/app/fashion-contest/id1560652500?uo=4"
+  },
+  {
+    "id": 60,
+    "title": "Color Truck!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/color-truck.jpg",
+    "alt": "Color Truck!",
+    "link": "https://apps.apple.com/us/app/color-truck/id1563927343?uo=4",
+    "logo": "./assets/images/color-truck.jpg",
+    "screenshots": [
+      "./assets/images/color-truck-01.jpg",
+      "./assets/images/color-truck-02.jpg",
+      "./assets/images/color-truck-03.jpg",
+      "./assets/images/color-truck-04.jpg",
+      "./assets/images/color-truck-05.jpg",
+      "./assets/images/color-truck-06.jpg"
+    ],
+    "description": "Are you ready for enjoyable but challenging driving experience? Buckle up and drive!",
+    "appStoreLink": "https://apps.apple.com/us/app/color-truck/id1563927343?uo=4"
+  },
+  {
+    "id": 61,
+    "title": "Pixel Giant",
+    "category": "Mobile Casual",
+    "image": "./assets/images/pixel-giant.jpg",
+    "alt": "Pixel Giant",
+    "link": "https://apps.apple.com/us/app/pixel-giant/id1569588774?uo=4",
+    "logo": "./assets/images/pixel-giant.jpg",
+    "screenshots": [
+      "./assets/images/pixel-giant-01.jpg",
+      "./assets/images/pixel-giant-02.jpg",
+      "./assets/images/pixel-giant-03.jpg",
+      "./assets/images/pixel-giant-04.jpg",
+      "./assets/images/pixel-giant-05.jpg",
+      "./assets/images/pixel-giant-06.jpg"
+    ],
+    "description": "Throw your soldiers, multiply them on air and take a piece from the giants till destroy them.",
+    "appStoreLink": "https://apps.apple.com/us/app/pixel-giant/id1569588774?uo=4"
+  },
+  {
+    "id": 62,
+    "title": "Big Brother 3D",
+    "category": "Mobile Casual",
+    "image": "./assets/images/big-brother-3d.jpg",
+    "alt": "Big Brother 3D",
+    "link": "https://apps.apple.com/us/app/big-brother-3d/id1537151313?uo=4",
+    "logo": "./assets/images/big-brother-3d.jpg",
+    "screenshots": [
+      "./assets/images/big-brother-3d-01.jpg",
+      "./assets/images/big-brother-3d-02.jpg",
+      "./assets/images/big-brother-3d-03.jpg",
+      "./assets/images/big-brother-3d-04.jpg",
+      "./assets/images/big-brother-3d-05.jpg",
+      "./assets/images/big-brother-3d-06.jpg"
+    ],
+    "description": "Safety of the State depends on you! You must spy on people’s deepest secrets, pick apart their private lives, and determine how dangerous they are.  Find and neutralize them!",
+    "appStoreLink": "https://apps.apple.com/us/app/big-brother-3d/id1537151313?uo=4"
+  },
+  {
+    "id": 63,
+    "title": "Pong Blast!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/pong-blast.jpg",
+    "alt": "Pong Blast!",
+    "link": "https://apps.apple.com/us/app/pong-blast/id1505389306?uo=4",
+    "logo": "./assets/images/pong-blast.jpg",
+    "screenshots": [
+      "./assets/images/pong-blast-01.jpg",
+      "./assets/images/pong-blast-02.jpg",
+      "./assets/images/pong-blast-03.jpg",
+      "./assets/images/pong-blast-04.jpg",
+      "./assets/images/pong-blast-05.jpg",
+      "./assets/images/pong-blast-06.jpg"
+    ],
+    "description": "Throw the balls into the cups. Once you fill in a vertical or horizontal line of cups, line will disappear, freeing up your balls back.",
+    "appStoreLink": "https://apps.apple.com/us/app/pong-blast/id1505389306?uo=4"
+  },
+  {
+    "id": 64,
+    "title": "Cut 2048 3D",
+    "category": "Mobile Casual",
+    "image": "./assets/images/cut-2048-3d.jpg",
+    "alt": "Cut 2048 3D",
+    "link": "https://apps.apple.com/us/app/cut-2048-3d/id1505534683?uo=4",
+    "logo": "./assets/images/cut-2048-3d.jpg",
+    "screenshots": [
+      "./assets/images/cut-2048-3d-01.jpg",
+      "./assets/images/cut-2048-3d-02.jpg",
+      "./assets/images/cut-2048-3d-03.jpg",
+      "./assets/images/cut-2048-3d-04.jpg",
+      "./assets/images/cut-2048-3d-05.jpg",
+      "./assets/images/cut-2048-3d-06.jpg"
+    ],
+    "description": "Cut the ropes!  Merge correct balls! And deliver the correct numbered ball to the basket.",
+    "appStoreLink": "https://apps.apple.com/us/app/cut-2048-3d/id1505534683?uo=4"
+  },
+  {
+    "id": 65,
+    "title": "Draw War 3D",
+    "category": "Mobile Casual",
+    "image": "./assets/images/draw-war-3d.jpg",
+    "alt": "Draw War 3D",
+    "link": "https://apps.apple.com/us/app/draw-war-3d/id1527770842?uo=4",
+    "logo": "./assets/images/draw-war-3d.jpg",
+    "screenshots": [
+      "./assets/images/draw-war-3d-01.jpg",
+      "./assets/images/draw-war-3d-02.jpg",
+      "./assets/images/draw-war-3d-03.jpg",
+      "./assets/images/draw-war-3d-04.jpg",
+      "./assets/images/draw-war-3d-05.jpg",
+      "./assets/images/draw-war-3d-06.jpg"
+    ],
+    "description": "Draw your formation and defeat your enemies! Draw the formation, fight with all your enemies. Become the greatest commander! Easy to play hard to master!",
+    "appStoreLink": "https://apps.apple.com/us/app/draw-war-3d/id1527770842?uo=4"
+  },
+  {
+    "id": 66,
+    "title": "Get Ready!.",
+    "category": "Mobile Casual",
+    "image": "./assets/images/get-ready.jpg",
+    "alt": "Get Ready!.",
+    "link": "https://apps.apple.com/us/app/get-ready/id1594063679?uo=4",
+    "logo": "./assets/images/get-ready.jpg",
+    "screenshots": [
+      "./assets/images/get-ready-01.jpg",
+      "./assets/images/get-ready-02.jpg",
+      "./assets/images/get-ready-03.jpg",
+      "./assets/images/get-ready-04.jpg",
+      "./assets/images/get-ready-05.jpg",
+      "./assets/images/get-ready-06.jpg"
+    ],
+    "description": "Hurry up, you need to get to the meeting. Make sure you are ready before entering the meeting",
+    "appStoreLink": "https://apps.apple.com/us/app/get-ready/id1594063679?uo=4"
+  },
+  {
+    "id": 67,
+    "title": "Mermaid Run!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/mermaid-run.jpg",
+    "alt": "Mermaid Run!",
+    "link": "https://apps.apple.com/us/app/mermaid-run/id1565195905?uo=4",
+    "logo": "./assets/images/mermaid-run.jpg",
+    "screenshots": [
+      "./assets/images/mermaid-run-01.jpg",
+      "./assets/images/mermaid-run-02.jpg",
+      "./assets/images/mermaid-run-03.jpg",
+      "./assets/images/mermaid-run-04.jpg",
+      "./assets/images/mermaid-run-05.jpg",
+      "./assets/images/mermaid-run-06.jpg"
+    ],
+    "description": "Swim to reach the free ocean. Be careful about pirates and their deadly traps and save your other beautiful mermaid friends.",
+    "appStoreLink": "https://apps.apple.com/us/app/mermaid-run/id1565195905?uo=4"
+  },
+  {
+    "id": 68,
+    "title": "Ant Invasion!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/ant-invasion.jpg",
+    "alt": "Ant Invasion!",
+    "link": "https://apps.apple.com/us/app/ant-invasion/id1569585481?uo=4",
+    "logo": "./assets/images/ant-invasion.jpg",
+    "screenshots": [
+      "./assets/images/ant-invasion-01.jpg",
+      "./assets/images/ant-invasion-02.jpg",
+      "./assets/images/ant-invasion-03.jpg",
+      "./assets/images/ant-invasion-04.jpg",
+      "./assets/images/ant-invasion-05.jpg",
+      "./assets/images/ant-invasion-06.jpg"
+    ],
+    "description": "Rush for food, feed the hungry ants and avoid the dangers!",
+    "appStoreLink": "https://apps.apple.com/us/app/ant-invasion/id1569585481?uo=4"
+  },
+  {
+    "id": 69,
+    "title": "Speed Dating 3D",
+    "category": "Mobile Casual",
+    "image": "./assets/images/speed-dating-3d.jpg",
+    "alt": "Speed Dating 3D",
+    "link": "https://apps.apple.com/us/app/speed-dating-3d/id1517566395?uo=4",
+    "logo": "./assets/images/speed-dating-3d.jpg",
+    "screenshots": [
+      "./assets/images/speed-dating-3d-01.jpg",
+      "./assets/images/speed-dating-3d-02.jpg",
+      "./assets/images/speed-dating-3d-03.jpg",
+      "./assets/images/speed-dating-3d-04.jpg",
+      "./assets/images/speed-dating-3d-05.jpg",
+      "./assets/images/speed-dating-3d-06.jpg"
+    ],
+    "description": "Join our Speed Dating events and find the perfect match, maybe love of your life. Love is just around the corner! Best dating game ever!",
+    "appStoreLink": "https://apps.apple.com/us/app/speed-dating-3d/id1517566395?uo=4"
+  },
+  {
+    "id": 70,
+    "title": "Smelly Cat!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/smelly-cat.jpg",
+    "alt": "Smelly Cat!",
+    "link": "https://apps.apple.com/us/app/smelly-cat/id1579843140?uo=4",
+    "logo": "./assets/images/smelly-cat.jpg",
+    "screenshots": [
+      "./assets/images/smelly-cat-01.jpg",
+      "./assets/images/smelly-cat-02.jpg",
+      "./assets/images/smelly-cat-03.jpg",
+      "./assets/images/smelly-cat-04.jpg",
+      "./assets/images/smelly-cat-05.jpg",
+      "./assets/images/smelly-cat-06.jpg"
+    ],
+    "description": "Make the cat the cutest. She needs you ! It's not her fault.",
+    "appStoreLink": "https://apps.apple.com/us/app/smelly-cat/id1579843140?uo=4"
+  },
+  {
+    "id": 71,
+    "title": "Hedgehog!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/hedgehog.jpg",
+    "alt": "Hedgehog!",
+    "link": "https://apps.apple.com/us/app/hedgehog/id1569568636?uo=4",
+    "logo": "./assets/images/hedgehog.jpg",
+    "screenshots": [
+      "./assets/images/hedgehog-01.jpg",
+      "./assets/images/hedgehog-02.jpg",
+      "./assets/images/hedgehog-03.jpg",
+      "./assets/images/hedgehog-04.jpg",
+      "./assets/images/hedgehog-05.jpg",
+      "./assets/images/hedgehog-06.jpg"
+    ],
+    "description": "Use spikes to get rid of cats and escape from the home.",
+    "appStoreLink": "https://apps.apple.com/us/app/hedgehog/id1569568636?uo=4"
+  },
+  {
+    "id": 72,
+    "title": "Drunk Walk!.",
+    "category": "Mobile Casual",
+    "image": "./assets/images/drunk-walk.jpg",
+    "alt": "Drunk Walk!.",
+    "link": "https://apps.apple.com/us/app/drunk-walk/id1564951914?uo=4",
+    "logo": "./assets/images/drunk-walk.jpg",
+    "screenshots": [
+      "./assets/images/drunk-walk-01.jpg",
+      "./assets/images/drunk-walk-02.jpg",
+      "./assets/images/drunk-walk-03.jpg",
+      "./assets/images/drunk-walk-04.jpg",
+      "./assets/images/drunk-walk-05.jpg",
+      "./assets/images/drunk-walk-06.jpg"
+    ],
+    "description": "You are drunk as hell, but if you fall you will be a loser. Don't touch any objects they are avoidable.",
+    "appStoreLink": "https://apps.apple.com/us/app/drunk-walk/id1564951914?uo=4"
+  },
+  {
+    "id": 73,
+    "title": "Wedding Rush!.",
+    "category": "Mobile Casual",
+    "image": "./assets/images/wedding-rush.jpg",
+    "alt": "Wedding Rush!.",
+    "link": "https://apps.apple.com/us/app/wedding-rush/id1603800705?uo=4",
+    "logo": "./assets/images/wedding-rush.jpg",
+    "screenshots": [
+      "./assets/images/wedding-rush-01.jpg",
+      "./assets/images/wedding-rush-02.jpg",
+      "./assets/images/wedding-rush-03.jpg",
+      "./assets/images/wedding-rush-04.jpg",
+      "./assets/images/wedding-rush-05.jpg",
+      "./assets/images/wedding-rush-06.jpg"
+    ],
+    "description": "Don't leave anyone alone. Collect and match people",
+    "appStoreLink": "https://apps.apple.com/us/app/wedding-rush/id1603800705?uo=4"
+  },
+  {
+    "id": 74,
+    "title": "Warrior Run!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/warrior-run.jpg",
+    "alt": "Warrior Run!",
+    "link": "https://apps.apple.com/us/app/warrior-run/id6503250137?uo=4",
+    "logo": "./assets/images/warrior-run.jpg",
+    "screenshots": [
+      "./assets/images/warrior-run-01.jpg",
+      "./assets/images/warrior-run-02.jpg",
+      "./assets/images/warrior-run-03.jpg",
+      "./assets/images/warrior-run-04.jpg",
+      "./assets/images/warrior-run-05.jpg",
+      "./assets/images/warrior-run-06.jpg"
+    ],
+    "description": "Embark on an exciting journey through history in Warrior Run! Start your adventure in the Stone Age and progress through key eras such as Sparta, Rome and World War 2 battlefields. Harness gathered energies to destroy enemy towers. This unique blend of strategic planning and historical progression offers a compelling challenge for everyone.",
+    "appStoreLink": "https://apps.apple.com/us/app/warrior-run/id6503250137?uo=4"
+  },
+  {
+    "id": 75,
+    "title": "UnStoppable!.",
+    "category": "Mobile Casual",
+    "image": "./assets/images/unstoppable.jpg",
+    "alt": "UnStoppable!.",
+    "link": "https://apps.apple.com/us/app/unstoppable/id1554647393?uo=4",
+    "logo": "./assets/images/unstoppable.jpg",
+    "screenshots": [
+      "./assets/images/unstoppable-01.jpg",
+      "./assets/images/unstoppable-02.jpg",
+      "./assets/images/unstoppable-03.jpg",
+      "./assets/images/unstoppable-04.jpg",
+      "./assets/images/unstoppable-05.jpg",
+      "./assets/images/unstoppable-06.jpg"
+    ],
+    "description": "Run through your enemies and don't stop! Use your Super Power to throw them away!",
+    "appStoreLink": "https://apps.apple.com/us/app/unstoppable/id1554647393?uo=4"
+  },
+  {
+    "id": 76,
+    "title": "Sleep Walker!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/sleep-walker.jpg",
+    "alt": "Sleep Walker!",
+    "link": "https://apps.apple.com/us/app/sleep-walker/id1550839078?uo=4",
+    "logo": "./assets/images/sleep-walker.jpg",
+    "screenshots": [
+      "./assets/images/sleep-walker-01.jpg",
+      "./assets/images/sleep-walker-02.jpg",
+      "./assets/images/sleep-walker-03.jpg",
+      "./assets/images/sleep-walker-04.jpg",
+      "./assets/images/sleep-walker-05.jpg",
+      "./assets/images/sleep-walker-06.jpg"
+    ],
+    "description": "He is walking on his sleep and he is in great danger! You need to help him and save his life!",
+    "appStoreLink": "https://apps.apple.com/us/app/sleep-walker/id1550839078?uo=4"
+  },
+  {
+    "id": 77,
+    "title": "Ragdoll Arena",
+    "category": "Mobile Casual",
+    "image": "./assets/images/ragdoll-arena.jpg",
+    "alt": "Ragdoll Arena",
+    "link": "https://apps.apple.com/us/app/ragdoll-arena/id1569899267?uo=4",
+    "logo": "./assets/images/ragdoll-arena.jpg",
+    "screenshots": [
+      "./assets/images/ragdoll-arena-01.jpg",
+      "./assets/images/ragdoll-arena-02.jpg",
+      "./assets/images/ragdoll-arena-03.jpg",
+      "./assets/images/ragdoll-arena-04.jpg",
+      "./assets/images/ragdoll-arena-05.jpg",
+      "./assets/images/ragdoll-arena-06.jpg"
+    ],
+    "description": "Are you ready to fight in the arena? Choose your weapon and be the last survivor.",
+    "appStoreLink": "https://apps.apple.com/us/app/ragdoll-arena/id1569899267?uo=4"
+  },
+  {
+    "id": 78,
+    "title": "The Last Day!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/the-last-day.jpg",
+    "alt": "The Last Day!",
+    "link": "https://apps.apple.com/us/app/the-last-day/id1554647138?uo=4",
+    "logo": "./assets/images/the-last-day.jpg",
+    "screenshots": [
+      "./assets/images/the-last-day-01.jpg",
+      "./assets/images/the-last-day-02.jpg",
+      "./assets/images/the-last-day-03.jpg",
+      "./assets/images/the-last-day-04.jpg",
+      "./assets/images/the-last-day-05.jpg",
+      "./assets/images/the-last-day-06.jpg"
+    ],
+    "description": "Attack to the people with a horde of zombies, collect more zombies to climb biggest walls!",
+    "appStoreLink": "https://apps.apple.com/us/app/the-last-day/id1554647138?uo=4"
   }
 ]

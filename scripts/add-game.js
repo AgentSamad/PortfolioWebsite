@@ -87,6 +87,7 @@ function detectStore(url) {
   if (url.includes("play.google.com")) return "googleplay";
   if (url.includes("apps.apple.com")) return "appstore";
   if (url.includes("apkpure.com")) return "apkpure";
+  if (url.includes("appbrain.com")) return "appbrain";
   return null;
 }
 
@@ -364,6 +365,124 @@ async function parseApkPure(url) {
   };
 }
 
+async function parseAppBrainDeveloper(url) {
+  // AppBrain developer URL: https://www.appbrain.com/appstore/dev/<name>/<apple-id>
+  const parts = new URL(url).pathname.split("/").filter(Boolean);
+  const appleId = parts[parts.length - 1];
+
+  if (!appleId || !/^\d+$/.test(appleId)) {
+    throw new Error("Could not extract Apple developer ID from AppBrain URL.");
+  }
+
+  console.log(`  Apple Developer ID: ${appleId}`);
+  console.log("  Fetching all apps from iTunes API...");
+
+  const apiUrl = `https://itunes.apple.com/lookup?id=${appleId}&entity=software`;
+  const json = await fetchJSON(apiUrl);
+
+  const apps = (json.results || []).filter(r => r.wrapperType === "software");
+  console.log(`  Found ${apps.length} iOS apps`);
+
+  return apps.map(app => ({
+    title: app.trackName || "Unknown",
+    description: (app.description || "").replace(/\n/g, " ").trim(),
+    iconUrl: app.artworkUrl512 || app.artworkUrl100,
+    screenshots: (app.screenshotUrls || []).slice(0, 6),
+    category: "Mobile Casual",
+    storeLink: app.trackViewUrl || url,
+    linkType: "appStoreLink",
+  }));
+}
+
+async function addBatch(allGames, dryRun) {
+  const portfolio = JSON.parse(fs.readFileSync(PORTFOLIO_PATH, "utf-8"));
+  let nextId = Math.max(...portfolio.map(p => p.id), 0) + 1;
+  let added = 0;
+  let skipped = 0;
+
+  for (const data of allGames) {
+    const slug = slugify(data.title);
+    const exists = portfolio.find(p =>
+      p.title.toLowerCase() === data.title.toLowerCase()
+    );
+    if (exists) {
+      console.log(`  SKIP: "${data.title}" already exists (#${exists.id})`);
+      skipped++;
+      continue;
+    }
+
+    console.log(`\n  Adding: ${data.title}`);
+
+    if (dryRun) {
+      console.log(`    [DRY RUN] Would add as #${nextId}`);
+      nextId++;
+      added++;
+      continue;
+    }
+
+    // Download icon
+    const iconFilename = `${slug}.jpg`;
+    const iconPath = `./assets/images/${iconFilename}`;
+    if (data.iconUrl) {
+      try {
+        await downloadImage(data.iconUrl, path.join(IMAGES_DIR, iconFilename));
+      } catch (e) {
+        console.warn(`    Icon failed: ${e.message}`);
+      }
+    }
+
+    // Download screenshots
+    const screenshotPaths = [];
+    for (let i = 0; i < data.screenshots.length; i++) {
+      const num = String(i + 1).padStart(2, "0");
+      const filename = `${slug}-${num}.jpg`;
+      const dest = path.join(IMAGES_DIR, filename);
+      try {
+        await downloadImage(data.screenshots[i], dest);
+        const stat = fs.statSync(dest);
+        if (stat.size < 5000) {
+          fs.unlinkSync(dest);
+        } else {
+          screenshotPaths.push(`./assets/images/${filename}`);
+        }
+      } catch (e) {
+        // silent skip
+      }
+    }
+
+    const entry = {
+      id: nextId,
+      title: data.title,
+      category: data.category,
+      image: iconPath,
+      alt: data.title,
+      link: data.storeLink,
+      logo: iconPath,
+      screenshots: screenshotPaths.length > 0 ? screenshotPaths : [iconPath],
+      description: data.description,
+    };
+
+    if (entry.description && entry.description.length > 350) {
+      let cut = entry.description.slice(0, 350);
+      const lastPeriod = cut.lastIndexOf(".");
+      if (lastPeriod > 150) cut = cut.slice(0, lastPeriod + 1);
+      entry.description = cut;
+    }
+
+    entry[data.linkType] = data.storeLink;
+    portfolio.push(entry);
+    nextId++;
+    added++;
+    console.log(`    Added as #${entry.id} (${screenshotPaths.length} screenshots)`);
+  }
+
+  if (!dryRun) {
+    fs.writeFileSync(PORTFOLIO_PATH, JSON.stringify(portfolio, null, 2) + "\n");
+  }
+
+  console.log(`\n  Done! Added: ${added}, Skipped: ${skipped}, Total: ${portfolio.length}`);
+}
+
 // ── Main ─────────────────────────────────────────────────────────────
 
 async function main() {
@@ -382,6 +501,7 @@ async function main() {
     - Google Play    (play.google.com)
     - App Store      (apps.apple.com)
     - APKPure        (apkpure.com)
+    - AppBrain       (appbrain.com) — batch adds all iOS apps from a developer page
 
   Options:
     --category "PC Steam"   Override category (default: auto-detected)
@@ -394,6 +514,7 @@ async function main() {
     node scripts/add-game.js https://play.google.com/store/apps/details?id=com.game.id
     node scripts/add-game.js https://apps.apple.com/us/app/coin-sort/id6446354191
     node scripts/add-game.js https://apkpure.com/scary-teacher-3d/com.zakg.scaryteacher.hellgame
+    node scripts/add-game.js https://www.appbrain.com/appstore/dev/mood-games-ou/1434688874
     node scripts/add-game.js https://play.google.com/store/apps/details?id=com.game.id --video https://youtube.com/watch?v=xxx
 
   npm shortcut:
@@ -407,7 +528,7 @@ async function main() {
 
   if (!store) {
     console.error("\n  Error: Unrecognized store URL.");
-    console.error("  Supported: Steam, Google Play, App Store, APKPure.\n");
+    console.error("  Supported: Steam, Google Play, App Store, APKPure, AppBrain.\n");
     process.exit(1);
   }
 
@@ -420,6 +541,19 @@ async function main() {
   const overrideCategory = getOpt("--category");
   const videoUrl = getOpt("--video");
   const dryRun = args.includes("--dry-run");
+
+  // AppBrain developer pages: batch add all apps
+  if (store === "appbrain") {
+    console.log("\n  AppBrain developer page detected — batch mode");
+    try {
+      const allGames = await parseAppBrainDeveloper(storeUrl);
+      await addBatch(allGames, dryRun);
+    } catch (err) {
+      console.error(`\n  Error: ${err.message}`);
+      process.exit(1);
+    }
+    process.exit(0);
+  }
 
   console.log(`\n  Fetching from ${store}...`);
   let data;
