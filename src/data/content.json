@@ -184,7 +184,7 @@
       },
       {
         "name": "Figma",
-        "logo": "./assets/images/figma-logo.svg",
+        "logo": "./assets/images/figma-logo.png",
         "link": "https://www.figma.com/"
       },
       {
@@ -194,12 +194,12 @@
       },
       {
         "name": "Trello",
-        "logo": "./assets/images/trello-logo.svg",
+        "logo": "./assets/images/trello-logo.png",
         "link": "https://trello.com/"
       },
       {
         "name": "Asana",
-        "logo": "./assets/images/asana-logo.svg",
+        "logo": "./assets/images/asana-logo.png",
         "link": "https://asana.com/"
       },
       {
@@ -214,17 +214,17 @@
       },
       {
         "name": "GitLab",
-        "logo": "./assets/images/gitlab-logo.svg",
+        "logo": "./assets/images/gitlab-logo.png",
         "link": "https://gitlab.com/"
       },
       {
         "name": "AWS",
-        "logo": "./assets/images/aws-logo.svg",
+        "logo": "./assets/images/aws-logo.png",
         "link": "https://aws.amazon.com/"
       },
       {
         "name": "Firebase",
-        "logo": "./assets/images/firebase-logo.svg",
+        "logo": "./assets/images/firebase-logo.png",
         "link": "https://firebase.google.com/"
       }
     ],
