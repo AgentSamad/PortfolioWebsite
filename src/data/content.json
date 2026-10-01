@@ -87,7 +87,7 @@
       {
         "position": "Senior Software Engineer",
         "company": "GenITeam Solutions",
-        "period": "2023-09 — Present",
+        "period": "2023-09-15 — Present",
         "logo": "./assets/images/GeniteamLogo.png",
         "link": "#",
         "overview": "At GenITeam Solutions in Lahore, I work in a collaborative game development environment focused on delivering high-quality gameplay systems and tooling for cross-platform titles.",
@@ -106,7 +106,7 @@
       {
         "position": "Senior Software Engineer (Remote)",
         "company": "Mood Games OU",
-        "period": "2020-12 — 2023-08",
+        "period": "2020-12-07 — 2023-08-25",
         "logo": "./assets/images/mood-games-logo.png",
         "link": "https://mood.games/",
         "overview": "At Mood Games OU (Bursa), I worked remotely on casual and hybrid-casual titles, supporting live operations and building reusable development tools.",
@@ -124,7 +124,7 @@
       {
         "position": "Unity Game Developer",
         "company": "Arcadian Labs",
-        "period": "2020-03 — 2020-12",
+        "period": "2020-03-12 — 2020-12-01",
         "logo": "./assets/images/Arcadian Labs.png",
         "link": "#",
         "overview": "At Arcadian Labs in Lahore, I worked on integrating third-party services and coordinating a team to launch new game features.",
@@ -140,7 +140,7 @@
       {
         "position": "Unity Game Developer",
         "company": "Dicowa Studios",
-        "period": "2018-11 — 2020-03",
+        "period": "2018-11-19 — 2020-03-06",
         "logo": "./assets/images/DicowaLogo.png",
         "link": "#",
         "overview": "At Dicowa Studios in Lahore, I started my professional game development career building 2D gameplay mechanics and project architecture.",
@@ -155,9 +155,9 @@
     ],
     "education": [
       {
-        "degree": "BSc Computational Physics, University of the Punjab, Lahore",
-        "period": "2014-08 — 2018-08",
-        "description": "Completed a BSc in Computational Physics with a strong foundation in mathematics, physics, and programming that translates directly to game development — from physics simulations to performance optimization.",
+        "degree": "BS Computational Physics, University of the Punjab, Lahore",
+        "period": "2014 — 2018",
+        "description": "Completed a BS in Computational Physics with a strong foundation in mathematics, physics, and programming that translates directly to game development — from physics simulations to performance optimization.",
         "logo": ""
       }
     ],
