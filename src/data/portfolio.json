@@ -5,13 +5,14 @@
     "category": "PC Steam",
     "image": "./assets/images/scary-teacher.jpg",
     "alt": "Scary Teacher 3D",
-    "link": "https://store.steampowered.com/app/1233070/Scary_Teacher_3D/",
+    "link": "https://store.steampowered.com/app/971470/Scary_Teacher_3D/",
     "logo": "./assets/images/scary-teacher.jpg",
     "screenshots": [
-      "./assets/images/scary-teacher.jpg"
+      "./assets/images/scary-teacher-01.jpg",
+      "./assets/images/scary-teacher-02.jpg"
     ],
-    "description": "Scary Teacher 3D is a popular stealth-horror game where players sneak into a scary teacher's house to teach her a lesson. Available on Steam with millions of installs across platforms.",
-    "steamLink": "https://store.steampowered.com/app/1233070/Scary_Teacher_3D/"
+    "description": "Sneak, prank, and outsmart Miss T in this suspenseful, humorous 3D puzzle-stealth game. Explore a detailed 3D environment, find clues, and execute creative traps while staying stealthy. Developed at GenITeam Solutions and published by Z&K Games on Steam. Free to play with dynamic challenges across multiple levels.",
+    "steamLink": "https://store.steampowered.com/app/971470/Scary_Teacher_3D/"
   },
   {
     "id": 2,
@@ -19,12 +20,16 @@
     "category": "Mobile Casual",
     "image": "./assets/images/coin-sort.jpg",
     "alt": "Coin Sort",
-    "link": "#",
+    "link": "https://apps.apple.com/us/app/coin-sort/id6446354191",
     "logo": "./assets/images/coin-sort.jpg",
     "screenshots": [
-      "./assets/images/coin-sort.jpg"
+      "./assets/images/coin-sort-01.jpg",
+      "./assets/images/coin-sort-02.jpg",
+      "./assets/images/coin-sort-03.jpg",
+      "./assets/images/coin-sort-04.jpg"
     ],
-    "description": "Coin Sort is a satisfying sorting puzzle game where players organize coins into the correct slots. Simple mechanics with addictive gameplay loop."
+    "description": "Sort and merge coins to clear the board in this addictive arcade-style puzzle game. Enhance your reflexes and strategy by placing coins into stacks based on color, size, and denomination. Features multiple coin types, power-ups, and progressively challenging levels. Published by Lion Studios. Rated 4.7 stars with 48K ratings on the App Store.",
+    "appStoreLink": "https://apps.apple.com/us/app/coin-sort/id6446354191"
   },
   {
     "id": 3,
@@ -32,42 +37,19 @@
     "category": "Mobile Casual",
     "image": "./assets/images/traffic-jam.jpg",
     "alt": "Traffic Jam Fever",
-    "link": "#",
+    "link": "https://play.google.com/store/apps/details?id=com.MoodGames.TrafficJamFever",
     "logo": "./assets/images/traffic-jam.jpg",
     "screenshots": [
-      "./assets/images/traffic-jam.jpg"
+      "./assets/images/traffic-jam-01.jpg",
+      "./assets/images/traffic-jam-02.jpg",
+      "./assets/images/traffic-jam-03.jpg",
+      "./assets/images/traffic-jam-04.jpg"
     ],
-    "description": "Traffic Jam Fever is an addictive traffic management game where players must navigate vehicles through congested intersections. Features progressively challenging levels."
+    "description": "Draw new roads and let more vehicles pass without creating traffic jams. A casual simulation game where you manage traffic flow by drawing routes and keeping vehicles moving. Published by Supersonic Studios with 10M+ downloads on Google Play.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.MoodGames.TrafficJamFever"
   },
   {
     "id": 4,
-    "title": "Police Quest",
-    "category": "Mobile Casual",
-    "image": "./assets/images/police-quest.jpg",
-    "alt": "Police Quest",
-    "link": "#",
-    "logo": "./assets/images/police-quest.jpg",
-    "screenshots": [
-      "./assets/images/police-quest.jpg"
-    ],
-    "description": "Police Quest is an action-packed game where players take on the role of a police officer, chasing criminals and maintaining order across thrilling missions."
-  },
-  {
-    "id": 5,
-    "title": "Monster Truck Evolution",
-    "category": "Mobile Casual",
-    "image": "./assets/images/monster-truck.jpg",
-    "alt": "Monster Truck Evolution",
-    "link": "https://play.google.com/store/apps/details?id=com.monster.truck.evolution",
-    "logo": "./assets/images/monster-truck.jpg",
-    "screenshots": [
-      "./assets/images/monster-truck.jpg"
-    ],
-    "description": "Monster Truck Evolution is a merge-and-evolve game featuring monster trucks. Combine trucks to unlock bigger and more powerful vehicles in this casual idle game.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.monster.truck.evolution"
-  },
-  {
-    "id": 6,
     "title": "Game Base - Unity Framework",
     "category": "Tools",
     "image": "./assets/images/game-base.jpg",
@@ -81,7 +63,7 @@
     "customLink": "https://github.com/AgentSamad"
   },
   {
-    "id": 7,
+    "id": 5,
     "title": "Mesh Fusion Tool",
     "category": "Tools",
     "image": "./assets/images/mesh-fusion.jpg",
@@ -93,5 +75,202 @@
     ],
     "description": "Unity Editor extension that merges multiple meshes into a single mesh and generates a material atlas, significantly reducing draw calls and improving GPU performance on mobile.",
     "customLink": "https://github.com/AgentSamad"
+  },
+  {
+    "id": 6,
+    "title": "Neon Grid Rush",
+    "category": "Mobile Casual",
+    "image": "./assets/images/neon-grid-rush.jpg",
+    "alt": "Neon Grid Rush",
+    "link": "https://play.google.com/store/apps/details?id=com.genigames.neon.grid.rush",
+    "logo": "./assets/images/neon-grid-rush.jpg",
+    "screenshots": [
+      "./assets/images/neon-grid-rush-02.jpg",
+      "./assets/images/neon-grid-rush-03.jpg",
+      "./assets/images/neon-grid-rush-04.jpg",
+      "./assets/images/neon-grid-rush-05.jpg"
+    ],
+    "description": "Step into a vibrant neon world where every jump depends on timing, focus, and quick reactions. Move forward along a glowing track filled with colorful obstacles and sharp turns in momentum. Tap at the right moment to jump, clear the path ahead, and keep your run going for as long as possible.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.neon.grid.rush"
+  },
+  {
+    "id": 7,
+    "title": "Shoe Strike!",
+    "category": "Mobile Casual",
+    "image": "./assets/images/shoe-strike.jpg",
+    "alt": "Shoe Strike!",
+    "link": "https://play.google.com/store/apps/details?id=com.genigames.office.boss.aim.sneaker",
+    "logo": "./assets/images/shoe-strike.jpg",
+    "screenshots": [
+      "./assets/images/shoe-strike-02.jpg",
+      "./assets/images/shoe-strike-03.jpg",
+      "./assets/images/shoe-strike-04.jpg",
+      "./assets/images/shoe-strike-05.jpg"
+    ],
+    "description": "Ready to teach your rude boss a hilarious lesson? Welcome to Shoe Strike!, the funniest office revenge game where every flying sneaker counts! Your boss constantly yells at employees, ruins everyone's day and walks away like nothing happened.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.office.boss.aim.sneaker"
+  },
+  {
+    "id": 8,
+    "title": "Bot Crash - Combat Arena",
+    "category": "Mobile Casual",
+    "image": "./assets/images/bot-crash-combat-arena.jpg",
+    "alt": "Bot Crash - Combat Arena",
+    "link": "https://play.google.com/store/apps/details?id=com.genigames.bot.crash.battle.arena",
+    "logo": "./assets/images/bot-crash-combat-arena.jpg",
+    "screenshots": [
+      "./assets/images/bot-crash-combat-arena-02.jpg",
+      "./assets/images/bot-crash-combat-arena-03.jpg",
+      "./assets/images/bot-crash-combat-arena-04.jpg",
+      "./assets/images/bot-crash-combat-arena-05.jpg",
+      "./assets/images/bot-crash-combat-arena-06.jpg"
+    ],
+    "description": "Enter the ultimate robot warzone in Bot Crash - Combat Arena, where you build, upgrade, and crash your custom bots in explosive real-time PvP battles! Choose from powerful weapons, tough armor, and strategic gadgets to create the ultimate battle machine. Compete in action-packed arenas, earn rewards, and climb the global leaderboard.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.bot.crash.battle.arena"
+  },
+  {
+    "id": 9,
+    "title": "Cannon Siege: Evolution",
+    "category": "Mobile Casual",
+    "image": "./assets/images/cannon-siege-evolution.jpg",
+    "alt": "Cannon Siege: Evolution",
+    "link": "https://play.google.com/store/apps/details?id=com.genigames.cannon.stone.castle.attack",
+    "logo": "./assets/images/cannon-siege-evolution.jpg",
+    "screenshots": [
+      "./assets/images/cannon-siege-evolution-02.jpg",
+      "./assets/images/cannon-siege-evolution-03.jpg",
+      "./assets/images/cannon-siege-evolution-04.jpg",
+      "./assets/images/cannon-siege-evolution-05.jpg"
+    ],
+    "description": "Step into the battlefield in Cannon Siege: Evolution, an action packed destruction game where power, precision and upgrades decide victory. Take control of your cannon, aim carefully and launch devastating shots to crush enemy structures and dominate every level.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.cannon.stone.castle.attack"
+  },
+  {
+    "id": 10,
+    "title": "Perfect Landing, Plane Pilot",
+    "category": "Mobile Casual",
+    "image": "./assets/images/perfect-landing-plane-pilot.jpg",
+    "alt": "Perfect Landing, Plane Pilot",
+    "link": "https://play.google.com/store/apps/details?id=com.genigames.plane.landing.flying.games",
+    "logo": "./assets/images/perfect-landing-plane-pilot.jpg",
+    "screenshots": [
+      "./assets/images/perfect-landing-plane-pilot-02.jpg",
+      "./assets/images/perfect-landing-plane-pilot-03.jpg",
+      "./assets/images/perfect-landing-plane-pilot-04.jpg",
+      "./assets/images/perfect-landing-plane-pilot-05.jpg"
+    ],
+    "description": "Take off into the skies with the most exciting airplane games experience and become the amazing flight pilot you always wanted to be! In this thrilling plane simulator, your mission is simple yet challenging: fly your plane as far as possible while dodging obstacles and breaking your own records.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.plane.landing.flying.games"
+  },
+  {
+    "id": 11,
+    "title": "Clash of Scary Squad",
+    "category": "Mobile Casual",
+    "image": "./assets/images/clash-of-scary-squad.jpg",
+    "alt": "Clash of Scary Squad",
+    "link": "https://play.google.com/store/apps/details?id=com.zatg.clash.scary.squad.games",
+    "logo": "./assets/images/clash-of-scary-squad.jpg",
+    "screenshots": [
+      "./assets/images/clash-of-scary-squad-02.jpg",
+      "./assets/images/clash-of-scary-squad-03.jpg",
+      "./assets/images/clash-of-scary-squad-04.jpg",
+      "./assets/images/clash-of-scary-squad-05.jpg",
+      "./assets/images/clash-of-scary-squad-06.jpg"
+    ],
+    "description": "Get ready for Clash of Scary Squad, a thrilling survival game where every move could be your last! Step into the scary squad’s arena, where danger, tension, and sudden eliminations await. Play as a member of the scary squad and show your strength, timing, and smart decisions to outlast everyone.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.zatg.clash.scary.squad.games"
+  },
+  {
+    "id": 12,
+    "title": "School Boy Stealth Escape",
+    "category": "Mobile Casual",
+    "image": "./assets/images/school-boy-stealth-escape.jpg",
+    "alt": "School Boy Stealth Escape",
+    "link": "https://play.google.com/store/apps/details?id=com.zatg.stealth.runaway.boy.escape",
+    "logo": "./assets/images/school-boy-stealth-escape.jpg",
+    "screenshots": [
+      "./assets/images/school-boy-stealth-escape-02.jpg",
+      "./assets/images/school-boy-stealth-escape-03.jpg",
+      "./assets/images/school-boy-stealth-escape-04.jpg",
+      "./assets/images/school-boy-stealth-escape-05.jpg",
+      "./assets/images/school-boy-stealth-escape-06.jpg"
+    ],
+    "description": "School Boy Stealth Escape – The Ultimate Home Escape Adventure! Step into the world of School Boy Stealth Escape, a challenging and hilarious home escape game designed for all fans of stealth, prank, puzzle games, and escape challenges.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.zatg.stealth.runaway.boy.escape"
+  },
+  {
+    "id": 13,
+    "title": "Monster Truck Evolution",
+    "category": "Mobile Casual",
+    "image": "./assets/images/monster-truck-evolution.jpg",
+    "alt": "Monster Truck Evolution",
+    "link": "https://play.google.com/store/apps/details?id=com.genigames.monster.truck.evolution.slingshot&hl=en",
+    "logo": "./assets/images/monster-truck-evolution.jpg",
+    "screenshots": [
+      "./assets/images/monster-truck-evolution-02.jpg",
+      "./assets/images/monster-truck-evolution-03.jpg",
+      "./assets/images/monster-truck-evolution-04.jpg",
+      "./assets/images/monster-truck-evolution-05.jpg",
+      "./assets/images/monster-truck-evolution-06.jpg"
+    ],
+    "description": "Get ready for an exciting ride in one of the most fun monster truck games. Pull back your slingshot, aim, and release to send your truck flying toward the finish line. The challenge is to build a truck and upgrade it, so it can go as far as possible and reach new distances and reach the target.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.monster.truck.evolution.slingshot&hl=en"
+  },
+  {
+    "id": 14,
+    "title": "Dont Get Older",
+    "category": "Mobile Casual",
+    "image": "./assets/images/dont-get-older.jpg",
+    "alt": "Dont Get Older",
+    "link": "https://apps.apple.com/sa/app/dont-get-older/id1631807522",
+    "logo": "./assets/images/dont-get-older.jpg",
+    "screenshots": [
+      "./assets/images/dont-get-older-01.jpg",
+      "./assets/images/dont-get-older-02.jpg",
+      "./assets/images/dont-get-older-03.jpg",
+      "./assets/images/dont-get-older-04.jpg",
+      "./assets/images/dont-get-older-05.jpg",
+      "./assets/images/dont-get-older-06.jpg"
+    ],
+    "description": "Try to stay young and build your human tower. Overcome obstacles and win the game.",
+    "appStoreLink": "https://apps.apple.com/sa/app/dont-get-older/id1631807522"
+  },
+  {
+    "id": 15,
+    "title": "Dragon Car Challenge",
+    "category": "Mobile Casual",
+    "image": "./assets/images/dragon-car-challenge.jpg",
+    "alt": "Dragon Car Challenge",
+    "link": "https://apps.apple.com/sa/app/dragon-car-challenge/id1629007386",
+    "logo": "./assets/images/dragon-car-challenge.jpg",
+    "screenshots": [
+      "./assets/images/dragon-car-challenge-01.jpg",
+      "./assets/images/dragon-car-challenge-02.jpg",
+      "./assets/images/dragon-car-challenge-03.jpg",
+      "./assets/images/dragon-car-challenge-04.jpg",
+      "./assets/images/dragon-car-challenge-05.jpg",
+      "./assets/images/dragon-car-challenge-06.jpg"
+    ],
+    "description": "Upgrade your car and finish the race by climbing the stairs.",
+    "appStoreLink": "https://apps.apple.com/sa/app/dragon-car-challenge/id1629007386"
+  },
+  {
+    "id": 16,
+    "title": "Aircraft Evolution",
+    "category": "Mobile Casual",
+    "image": "./assets/images/aircraft-evolution.jpg",
+    "alt": "Aircraft Evolution",
+    "link": "https://apps.apple.com/sa/app/aircraft-evolution/id1626288181",
+    "logo": "./assets/images/aircraft-evolution.jpg",
+    "screenshots": [
+      "./assets/images/aircraft-evolution-01.jpg",
+      "./assets/images/aircraft-evolution-02.jpg",
+      "./assets/images/aircraft-evolution-03.jpg",
+      "./assets/images/aircraft-evolution-04.jpg",
+      "./assets/images/aircraft-evolution-05.jpg",
+      "./assets/images/aircraft-evolution-06.jpg"
+    ],
+    "description": "Upgrade the features you want your aircraft to be strong. Destroy the enemies and their base!",
+    "appStoreLink": "https://apps.apple.com/sa/app/aircraft-evolution/id1626288181"
   }
 ]

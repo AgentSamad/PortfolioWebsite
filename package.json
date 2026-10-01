@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "add-game": "node scripts/add-game.js"
   },
   "dependencies": {
     "@next/swc-win32-x64-msvc": "^15.2.4",
