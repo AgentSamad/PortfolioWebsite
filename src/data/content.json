@@ -1,0 +1,266 @@
+{
+  "sidebar": {
+    "name": "Abdus Samad",
+    "title": "Senior Game Developer",
+    "avatar": "./assets/images/my-profile.jpg",
+    "contacts": [
+      {
+        "type": "email",
+        "icon": "mail-outline",
+        "title": "Email",
+        "value": "samadprogrammer@gmail.com",
+        "link": "mailto:samadprogrammer@gmail.com"
+      },
+      {
+        "type": "github",
+        "icon": "logo-github",
+        "title": "GitHub",
+        "value": "github.com/AgentSamad",
+        "link": "https://github.com/AgentSamad"
+      },
+      {
+        "type": "linkedin",
+        "icon": "logo-linkedin",
+        "title": "LinkedIn",
+        "value": "linkedin.com/in/asamad-unitydeveloper",
+        "link": "https://linkedin.com/in/asamad-unitydeveloper"
+      }
+    ],
+    "social": []
+  },
+  "about": {
+    "title": "About me",
+    "description": [
+      "Unity and C# engineer with 8 years of commercial game development across PC and mobile. Focused on gameplay systems architecture, ScriptableObject-driven data pipelines, and custom Unity editor tooling.",
+      "Built cross-platform codebases with shared core logic and platform-specific builds, multiplayer sync systems, and in-game store and inventory flows. Comfortable owning features end to end with high autonomy in a remote team."
+    ],
+    "services": [
+      {
+        "icon": "./assets/images/icon-game-dev.svg",
+        "title": "Game Development",
+        "description": "Professional game development for PC and mobile platforms using Unity3D and C#, with focus on gameplay systems and architecture."
+      },
+      {
+        "icon": "./assets/images/icon-mobile-dev.svg",
+        "title": "Mobile Development",
+        "description": "Cross-platform mobile game development for iOS, Android, and Amazon with optimized performance on mid-tier devices."
+      },
+      {
+        "icon": "./assets/images/icon-vr.svg",
+        "title": "Editor Tooling",
+        "description": "Custom Unity Editor tools and extensions that accelerate content authoring and streamline development workflows."
+      },
+      {
+        "icon": "./assets/images/icon-leadership.svg",
+        "title": "Technical Leadership",
+        "description": "Leading engineering teams on architecture decisions, code review, and delivery for shipped titles with 1M+ installs."
+      }
+    ],
+    "testimonials": [],
+    "clients": [
+      {
+        "name": "GenITeam Solutions",
+        "logo": "./assets/images/GeniteamLogo.png",
+        "link": "#"
+      },
+      {
+        "name": "Mood Games",
+        "logo": "./assets/images/mood-games-logo.png",
+        "link": "https://mood.games/"
+      },
+      {
+        "name": "Arcadian Labs",
+        "logo": "./assets/images/Arcadian Labs.png",
+        "link": "#"
+      },
+      {
+        "name": "Dicowa Studios",
+        "logo": "./assets/images/DicowaLogo.png",
+        "link": "#"
+      }
+    ]
+  },
+  "resume": {
+    "title": "Work Experience",
+    "mainTitle": "Over 8 Years of Game Development",
+    "experience": [
+      {
+        "position": "Senior Software Engineer",
+        "company": "GenITeam Solutions",
+        "period": "2023-09 — Present",
+        "logo": "./assets/images/GeniteamLogo.png",
+        "link": "#",
+        "overview": "At GenITeam Solutions in Lahore, I work in a collaborative game development environment focused on delivering high-quality gameplay systems and tooling for cross-platform titles.",
+        "myRole": "As a Senior Software Engineer, I build and maintain core gameplay systems and custom Unity Editor tooling to accelerate content and feature development across the team. I lead a team of 8 engineers on architecture decisions, code review, and delivery.",
+        "skillsAcquired": "Advanced multiplayer networking with Mirror, mobile performance profiling, responsive UGUI layout architecture, Firebase Analytics integration, and A/B testing frameworks.",
+        "impact": "Reduced multiplayer desync issues through client-side interpolation and extrapolation. Cut frame time and memory usage on mid-tier Android devices. Built responsive UI layouts that work across resolutions and input types.",
+        "description": [
+          "Built and maintained core gameplay systems and custom Unity Editor tooling to accelerate content and feature development across the team",
+          "Reduced multiplayer desync through client-side interpolation and extrapolation with reliable packet ordering over Mirror",
+          "Cut frame time and memory use on mid-tier Android devices using Unity Profiler and Frame Debugger; reduced draw calls through batching and texture atlasing",
+          "Built responsive UGUI layouts across resolutions and input types; reduced canvas rebuilds and overdraw to improve UI frame time",
+          "Integrated Firebase Analytics and ad mediation SDKs; ran A/B tests on mechanics, monetization, and retention systems",
+          "Led a team of 8 engineers on architecture decisions, code review, and delivery"
+        ]
+      },
+      {
+        "position": "Senior Software Engineer (Remote)",
+        "company": "Mood Games OU",
+        "period": "2020-12 — 2023-08",
+        "logo": "./assets/images/mood-games-logo.png",
+        "link": "https://mood.games/",
+        "overview": "At Mood Games OU (Bursa), I worked remotely on casual and hybrid-casual titles, supporting live operations and building reusable development tools.",
+        "myRole": "As a Senior Software Engineer, I developed gameplay mechanics and supported live operations for casual and hybrid-casual titles. I refactored gameplay architecture using ScriptableObjects and event-driven systems to improve modularity and support multiplayer scalability.",
+        "skillsAcquired": "ScriptableObject-driven architecture, event-driven systems, cross-platform build optimization, Unity Editor tool development, ANR/crash debugging.",
+        "impact": "Built Unity Editor tools that improved content and development throughput by around 40%. Shipped builds to iOS, Android, and Amazon, reducing build size by 50-60%.",
+        "description": [
+          "Developed gameplay mechanics and supported live operations for casual and hybrid-casual titles",
+          "Refactored gameplay architecture using ScriptableObjects and event-driven systems to improve modularity and support multiplayer scalability",
+          "Built Unity Editor tools that improved content and development throughput by around 40%",
+          "Profiled and debugged builds to resolve ANRs and crashes and to optimize FPS and RAM",
+          "Shipped builds to iOS, Android, and Amazon, reducing build size by 50-60%"
+        ]
+      },
+      {
+        "position": "Unity Game Developer",
+        "company": "Arcadian Labs",
+        "period": "2020-03 — 2020-12",
+        "logo": "./assets/images/Arcadian Labs.png",
+        "link": "#",
+        "overview": "At Arcadian Labs in Lahore, I worked on integrating third-party services and coordinating a team to launch new game features.",
+        "myRole": "As a Unity Game Developer, I integrated Firebase, Unity Ads, and third-party ad mediation networks. I diagnosed and resolved technical issues across gameplay and third-party integrations, and coordinated a team of 12 to launch a new game feature.",
+        "skillsAcquired": "Firebase integration, Unity Ads, ad mediation networks, cross-team coordination, technical issue diagnosis.",
+        "impact": "Coordinated a team of 12 to launch a new game feature, increasing engagement by 40% and premium subscriptions by 25%.",
+        "description": [
+          "Integrated Firebase, Unity Ads, and third-party ad mediation networks",
+          "Diagnosed and resolved technical issues across gameplay and third-party integrations",
+          "Coordinated a team of 12 to launch a new game feature, increasing engagement by 40% and premium subscriptions by 25%"
+        ]
+      },
+      {
+        "position": "Unity Game Developer",
+        "company": "Dicowa Studios",
+        "period": "2018-11 — 2020-03",
+        "logo": "./assets/images/DicowaLogo.png",
+        "link": "#",
+        "overview": "At Dicowa Studios in Lahore, I started my professional game development career building 2D gameplay mechanics and project architecture.",
+        "myRole": "As a Unity Game Developer, I built 2D gameplay mechanics, enemy AI behaviours, and project architecture. I improved gameplay performance and implemented UI systems.",
+        "skillsAcquired": "2D game mechanics, enemy AI behaviour systems, Unity UI systems, gameplay performance optimization, project architecture.",
+        "impact": "Established foundational skills in Unity game development and contributed to multiple shipped titles.",
+        "description": [
+          "Built 2D gameplay mechanics, enemy AI behaviours, and project architecture",
+          "Improved gameplay performance and implemented UI systems"
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc Computational Physics, University of the Punjab, Lahore",
+        "period": "2014-08 — 2018-08",
+        "description": "Completed a BSc in Computational Physics with a strong foundation in mathematics, physics, and programming that translates directly to game development — from physics simulations to performance optimization.",
+        "logo": ""
+      }
+    ],
+    "tools": [
+      {
+        "name": "Unity",
+        "logo": "./assets/images/unity-logo.png",
+        "link": "https://unity.com/"
+      },
+      {
+        "name": "C#",
+        "logo": "./assets/images/csharp-logo.png",
+        "link": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+      },
+      {
+        "name": "C++",
+        "logo": "./assets/images/cpp-logo.png",
+        "link": "https://isocpp.org/"
+      },
+      {
+        "name": "Blender",
+        "logo": "./assets/images/blender-logo.png",
+        "link": "https://www.blender.org/"
+      },
+      {
+        "name": "Adobe Photoshop",
+        "logo": "./assets/images/photoshop-logo.png",
+        "link": "https://www.adobe.com/products/photoshop.html"
+      },
+      {
+        "name": "Jira",
+        "logo": "./assets/images/jira-logo.png",
+        "link": "https://www.atlassian.com/software/jira"
+      },
+      {
+        "name": "GitHub",
+        "logo": "./assets/images/github-logo.png",
+        "link": "https://github.com/"
+      },
+      {
+        "name": "Firebase",
+        "logo": "./assets/images/firebase-logo.png",
+        "link": "https://firebase.google.com/"
+      }
+    ],
+    "skillsTitle": "Skills",
+    "skills": [
+      {
+        "name": "Unity3D",
+        "percentage": 95
+      },
+      {
+        "name": "C# / .NET",
+        "percentage": 95
+      },
+      {
+        "name": "Gameplay Systems Architecture",
+        "percentage": 90
+      },
+      {
+        "name": "Custom Editor Tooling",
+        "percentage": 90
+      },
+      {
+        "name": "Mobile Game Development",
+        "percentage": 90
+      },
+      {
+        "name": "Performance Optimization",
+        "percentage": 88
+      },
+      {
+        "name": "Multiplayer (Mirror Networking)",
+        "percentage": 85
+      },
+      {
+        "name": "UGUI & UI Performance",
+        "percentage": 88
+      },
+      {
+        "name": "ScriptableObject Architecture",
+        "percentage": 90
+      },
+      {
+        "name": "Shader Graph / URP",
+        "percentage": 78
+      },
+      {
+        "name": "Firebase & Analytics",
+        "percentage": 82
+      },
+      {
+        "name": "Version Control (Git/SVN)",
+        "percentage": 85
+      },
+      {
+        "name": "C++",
+        "percentage": 70
+      },
+      {
+        "name": "Python",
+        "percentage": 65
+      }
+    ]
+  }
+}

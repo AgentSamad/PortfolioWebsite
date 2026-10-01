@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "image": "./assets/images/blog-2.jpg",
+    "alt": "Unity Tips",
+    "category": "Game Development",
+    "date": "2024-03-15",
+    "title": "Unity Tips and Tricks",
+    "description": "Click to read Unity tips and tricks in markdown format.",
+    "markdown": "./assets/blogs/unitytips.md"
+  }
+]

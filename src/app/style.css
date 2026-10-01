@@ -1,0 +1,1059 @@
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111827;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1E293B;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    position: relative;
+}
+
+.dark body,
+html.dark body {
+    background:
+        radial-gradient(ellipse at top left, rgba(59, 130, 246, 0.06) 0%, transparent 50%),
+        radial-gradient(ellipse at bottom right, rgba(37, 99, 235, 0.04) 0%, transparent 50%),
+        linear-gradient(135deg, #0B1121 0%, #0F172A 25%, #0B1121 50%, #091018 75%, #0B1121 100%) !important;
+    background-size: 100% 100%, 100% 100%, 400% 400%;
+    background-attachment: fixed;
+    animation: gradientShift 20s ease infinite;
+}
+
+/* Noise Texture Overlay */
+.dark body::before,
+html.dark body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+        repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0px, transparent 1px, transparent 2px, rgba(0, 0, 0, 0.12) 3px),
+        repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.12) 0px, transparent 1px, transparent 2px, rgba(0, 0, 0, 0.12) 3px),
+        repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.08) 0px, transparent 1px, transparent 2px, rgba(0, 0, 0, 0.08) 3px);
+    background-size: 4px 4px, 4px 4px, 3px 3px;
+    mix-blend-mode: overlay;
+}
+
+/* Ensure content appears above noise overlay */
+.dark .container,
+.dark main,
+.dark .page-content {
+    position: relative;
+    z-index: 1;
+}
+
+.dark #loading-indicator {
+    background:
+        radial-gradient(ellipse at top left, rgba(59, 130, 246, 0.06) 0%, transparent 50%),
+        radial-gradient(ellipse at bottom right, rgba(37, 99, 235, 0.04) 0%, transparent 50%),
+        linear-gradient(135deg, #0B1121 0%, #0F172A 25%, #0B1121 50%, #091018 75%, #0B1121 100%) !important;
+    background-size: 100% 100%, 100% 100%, 400% 400%;
+    background-attachment: fixed;
+    animation: gradientShift 20s ease infinite;
+    position: relative;
+}
+
+.dark #loading-indicator::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+    z-index: 0;
+    pointer-events: none;
+    background-image:
+        repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0px, transparent 1px, transparent 2px, rgba(0, 0, 0, 0.15) 3px),
+        repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.15) 0px, transparent 1px, transparent 2px, rgba(0, 0, 0, 0.15) 3px),
+        repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.1) 0px, transparent 1px, transparent 2px, rgba(0, 0, 0, 0.1) 3px);
+    background-size: 4px 4px, 4px 4px, 3px 3px;
+    mix-blend-mode: overlay;
+}
+
+.dark #loading-indicator>* {
+    position: relative;
+    z-index: 1;
+}
+
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%, 100% 50%, 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%, 0% 50%, 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%, 100% 50%, 0% 50%;
+    }
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Page Content Transitions */
+.page-content {
+    animation: fadeIn 0.3s ease-in;
+}
+
+.page-content.hidden {
+    display: none !important;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Contact Form Styles */
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+    transition: all 0.2s ease;
+}
+
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+
+#contact-form select {
+    background-image: none;
+    cursor: pointer;
+}
+
+#contact-form button[type="submit"] {
+    transition: all 0.3s ease;
+}
+
+#contact-form button[type="submit"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+}
+
+/* Logo/Icon Styles */
+#sidebar-contacts img {
+    filter: brightness(0) invert(1);
+    transition: all 0.2s ease;
+}
+
+.dark #sidebar-contacts img {
+    filter: brightness(0) invert(1);
+}
+
+#sidebar-contacts img:hover {
+    opacity: 1 !important;
+    filter: brightness(0) saturate(100%) invert(45%) sepia(98%) saturate(2000%) hue-rotate(210deg) brightness(100%) contrast(96%);
+}
+
+/* Contact info icons */
+#contact-info img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+    filter: brightness(0) saturate(100%) invert(45%) sepia(98%) saturate(2000%) hue-rotate(210deg) brightness(100%) contrast(96%);
+}
+
+/* Portfolio Filter Tabs */
+.filter-tab {
+    transition: all 0.3s ease;
+}
+
+.filter-tab.active {
+    background-color: #3B82F6 !important;
+    color: white !important;
+}
+
+/* Portfolio Items Animation */
+.portfolio-item {
+    animation: fadeInUp 0.4s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Clients Slider */
+#clients-container {
+    position: relative;
+    overflow: hidden;
+}
+
+#clients-section {
+    display: flex;
+    will-change: transform;
+    align-items: center;
+    transition: none;
+}
+
+#clients-section a {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+#clients-section img {
+    transition: all 0.3s ease;
+    max-width: 230px;
+    height: 83px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+#clients-section a:hover img {
+    transform: scale(1.01);
+}
+
+/* Service Icons Styling */
+#services-grid img {
+    color: #3B82F6;
+    transition: all 0.3s ease;
+}
+
+#services-grid .bg-card-light img,
+#services-grid .bg-card-dark img {
+    filter: brightness(0) saturate(100%) invert(45%) sepia(98%) saturate(2000%) hue-rotate(210deg) brightness(100%) contrast(96%);
+}
+
+#services-grid .bg-card-light:hover img,
+#services-grid .bg-card-dark:hover img {
+    transform: scale(1.1);
+    filter: brightness(0) saturate(100%) invert(67%) sepia(89%) saturate(1352%) hue-rotate(243deg) brightness(120%) contrast(101%);
+}
+
+#services-grid .bg-card-light:hover,
+#services-grid .bg-card-dark:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.15);
+}
+
+/* ============================================
+   BEAUTIFUL ANIMATIONS
+   ============================================ */
+
+/* Scroll-triggered animations */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.animate-on-scroll.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Stagger animations for grid items */
+.animate-stagger {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.animate-stagger.animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Fade in from left */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Fade in from right */
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Scale in animation */
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Rotate in animation */
+@keyframes rotateIn {
+    from {
+        opacity: 0;
+        transform: rotate(-10deg) scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0) scale(1);
+    }
+}
+
+/* Slide up with fade */
+@keyframes slideUpFade {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Pulse animation */
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* Shimmer effect */
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+
+    100% {
+        background-position: 1000px 0;
+    }
+}
+
+/* Button hover animations */
+button,
+.btn {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button::before,
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: translate(-50%, -50%);
+    transition: width 0.6s, height 0.6s;
+}
+
+button:hover::before,
+.btn:hover::before {
+    width: 300px;
+    height: 300px;
+}
+
+/* Card hover animations */
+.card-hover {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(59, 130, 246, 0.2);
+}
+
+/* Image hover effects */
+img {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.group:hover img {
+    transform: scale(1.05);
+}
+
+/* Text animations */
+.animate-text {
+    background: linear-gradient(90deg, currentColor, currentColor, transparent);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: shimmer 3s infinite;
+}
+
+/* Icon animations */
+.material-symbols-outlined {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button:hover .material-symbols-outlined,
+a:hover .material-symbols-outlined {
+    transform: scale(1.1);
+}
+
+/* Navigation button animations */
+.nav-btn {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+.nav-btn::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: currentColor;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+.nav-btn.active::after {
+    width: 60%;
+}
+
+.nav-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* Portfolio item animations */
+.portfolio-item {
+    animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Testimonial card animation */
+#testimonial-container {
+    animation: scaleIn 0.5s ease-out;
+    transition: all 0.3s ease;
+}
+
+/* Blog card animations */
+#blog-grid article {
+    animation: fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#blog-grid article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Resume section animations */
+#experience-list>div,
+#education-list>div,
+#skills-list>div {
+    animation: fadeInLeft 0.6s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+    transition: all 0.3s ease;
+}
+
+#experience-list>div:hover,
+#education-list>div:hover {
+    transform: translateX(5px);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.1);
+}
+
+/* Skills progress bar animation - removed auto-animation, now handled by JS */
+#skills-list .skill-bar {
+    transition: width 1s ease-out;
+}
+
+/* Tools grid animations */
+#tools-grid a {
+    animation: scaleIn 0.5s cubic-bezier(0.4, 0, 0.2, 1) backwards;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#tools-grid a:hover {
+    transform: scale(1.05) translateY(-3px);
+}
+
+/* Sidebar animations */
+#sidebar-avatar {
+    animation: scaleIn 0.6s ease-out;
+    transition: all 0.3s ease;
+}
+
+#sidebar-avatar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+}
+
+/* Sidebar Profile Card Styling - Old image styles removed, now using Font Awesome icons with hover effect */
+
+/* Hero text animation */
+h1 {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+/* Typing animation cursor */
+.typing-cursor {
+    display: inline-block;
+    animation: blink 1s infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+/* Section title animations */
+section h2 {
+    animation: fadeInLeft 0.6s ease-out;
+}
+
+/* Filter tab animations */
+.filter-tab {
+    position: relative;
+    overflow: hidden;
+}
+
+.filter-tab::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+    transition: left 0.5s;
+}
+
+.filter-tab:hover::before {
+    left: 100%;
+}
+
+/* Clients slider smooth transition */
+/* Removed transition for smooth continuous scrolling */
+
+/* Loading spinner animation */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+/* Smooth page transitions */
+.page-content {
+    animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Loading indicator fade out */
+#loading-indicator {
+    transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+}
+
+#loading-indicator[style*="display: none"] {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* FAQ accordion animation */
+details {
+    transition: all 0.3s ease;
+}
+
+details[open] {
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        max-height: 0;
+    }
+
+    to {
+        opacity: 1;
+        max-height: 500px;
+    }
+}
+
+/* Contact form field focus animations */
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+    animation: pulse 0.3s ease;
+}
+
+/* Statistics Grid */
+.statistics-grid {
+    gap: 0 !important;
+    column-gap: 0 !important;
+    row-gap: 0 !important;
+    grid-template-columns: repeat(3, 100px);
+    justify-content: start;
+}
+
+.statistics-grid>div {
+    width: 300px;
+    max-width: 300px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Stagger delay classes */
+.stagger-1 {
+    animation-delay: 0.1s;
+}
+
+.stagger-2 {
+    animation-delay: 0.2s;
+}
+
+.stagger-3 {
+    animation-delay: 0.3s;
+}
+
+.stagger-4 {
+    animation-delay: 0.4s;
+}
+
+.stagger-5 {
+    animation-delay: 0.5s;
+}
+
+.stagger-6 {
+    animation-delay: 0.6s;
+}
+
+/* Markdown Blog Content Styles */
+#blog-post-content {
+    line-height: 1.8;
+}
+
+/* Inline code styling */
+#blog-post-content code.inline-code {
+    background-color: rgba(59, 130, 246, 0.15);
+    color: #93C5FD;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    display: inline-block;
+    line-height: 1.5;
+}
+
+/* Code block styling */
+#blog-post-content pre {
+    position: relative;
+    background: #1A1A1A !important;
+    border: 1px solid rgba(75, 85, 99, 0.5) !important;
+}
+
+#blog-post-content pre code {
+    color: #E5E7EB !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    font-size: 0.875rem;
+    line-height: 1.6;
+}
+
+/* Code block syntax highlighting colors (basic) */
+#blog-post-content pre code .keyword {
+    color: #C792EA;
+}
+
+#blog-post-content pre code .string {
+    color: #C3E88D;
+}
+
+#blog-post-content pre code .comment {
+    color: #546E7A;
+    font-style: italic;
+}
+
+#blog-post-content pre code .number {
+    color: #F78C6C;
+}
+
+#blog-post-content pre code .function {
+    color: #82AAFF;
+}
+
+/* List styling improvements */
+#blog-post-content ul,
+#blog-post-content ol {
+    margin-bottom: 1.5rem;
+}
+
+#blog-post-content li {
+    margin-bottom: 0.5rem;
+}
+
+/* Heading spacing */
+#blog-post-content h1,
+#blog-post-content h2,
+#blog-post-content h3,
+#blog-post-content h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#blog-post-content h1:first-child,
+#blog-post-content h2:first-child {
+    margin-top: 0;
+}
+
+/* Paragraph spacing */
+#blog-post-content p {
+    margin-bottom: 1.25rem;
+}
+
+/* Blockquote styling */
+#blog-post-content blockquote {
+    margin: 1.5rem 0;
+    padding: 1rem 1.5rem;
+}
+
+/* Table styling */
+#blog-post-content table {
+    margin: 1.5rem 0;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#blog-post-content table th {
+    background-color: rgba(31, 41, 55, 0.5);
+    font-weight: 600;
+}
+
+#blog-post-content table td,
+#blog-post-content table th {
+    padding: 0.75rem;
+    border: 1px solid rgba(75, 85, 99, 0.3);
+}
+
+#blog-post-content table tr:nth-child(even) {
+    background-color: rgba(31, 41, 55, 0.2);
+}
+
+/* Image styling */
+#blog-post-content img {
+    margin: 2rem 0;
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Link styling */
+#blog-post-content a {
+    transition: all 0.2s ease;
+}
+
+#blog-post-content a:hover {
+    text-decoration: underline;
+}
+
+/* Social Media Icons Hover Effect */
+#sidebar-social .social-icons-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar-social .social-icons-list li {
+    list-style: none;
+    margin: 0;
+}
+
+#sidebar-social .social-icons-list li a {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+    text-decoration: none;
+}
+
+#sidebar-social .social-icons-list li a .icon {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+#sidebar-social .social-icons-list li a:hover .icon {
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+#sidebar-social .social-icons-list li a:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+#sidebar-social .social-icons-list li a:hover:before {
+    top: 0;
+}
+
+/* Platform-specific colors */
+#sidebar-social .social-icons-list li a[data-platform="facebook"]:before {
+    background: #3b5999;
+}
+
+#sidebar-social .social-icons-list li a[data-platform="twitter"]:before {
+    background: #55acee;
+}
+
+#sidebar-social .social-icons-list li a[data-platform="linkedin"]:before {
+    background: #0077b5;
+}
+
+#sidebar-social .social-icons-list li a[data-platform="google-plus"]:before {
+    background: #dd4b39;
+}
+
+#sidebar-social .social-icons-list li a[data-platform="instagram"]:before {
+    background: #e4405f;
+}
+
+#sidebar-social .social-icons-list li a[data-platform="github"]:before {
+    background: #333;
+}
+
+#sidebar-social .social-icons-list li a[data-platform="email"]:before {
+    background: #0077c5;
+}
+
+/* Dark mode adjustments */
+.dark #sidebar-social .social-icons-list li a {
+    background-color: #111827;
+    border-color: #111827;
+}
+
+.dark #sidebar-social .social-icons-list li a .icon {
+    color: #fff;
+}
+
+/* Navigation Icons Hover Effect */
+.nav-icons-list {
+    display: flex;
+    position: relative;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-icons-list .nav-icon-item {
+    position: relative;
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    background: white;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.dark .nav-icons-list .nav-icon-item {
+    background: #111827;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.nav-icons-list .nav-icon-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 40px;
+    background: linear-gradient(45deg, var(--i), var(--j));
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.nav-icons-list .nav-icon-item::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    background: linear-gradient(45deg, var(--i), var(--j));
+    transition: 0.5s;
+    filter: blur(15px);
+    z-index: -1;
+    opacity: 0;
+}
+
+.nav-icons-list .nav-icon-item:hover {
+    width: 140px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+}
+
+.nav-icons-list .nav-icon-item:hover::before {
+    opacity: 1;
+}
+
+.nav-icons-list .nav-icon-item:hover::after {
+    opacity: 0.5;
+}
+
+.nav-icons-list .nav-icon-item .material-symbols-outlined {
+    color: #777;
+    font-size: 1.25em;
+    transition: 0.5s;
+    transition-delay: 0.25s;
+    position: relative;
+    z-index: 2;
+}
+
+.dark .nav-icons-list .nav-icon-item .material-symbols-outlined {
+    color: #999;
+}
+
+.nav-icons-list .nav-icon-item:hover .material-symbols-outlined {
+    transform: scale(0);
+    color: #fff;
+    transition-delay: 0s;
+}
+
+.nav-icons-list .nav-icon-item .title {
+    position: absolute;
+    color: #fff;
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transform: scale(0);
+    transition: 0.5s;
+    transition-delay: 0s;
+    white-space: nowrap;
+    z-index: 3;
+    font-weight: 500;
+}
+
+.nav-icons-list .nav-icon-item:hover .title {
+    transform: scale(1);
+    transition-delay: 0.25s;
+}
+
+/* Active state for navigation */
+.nav-icons-list .nav-icon-item.active {
+    background: linear-gradient(45deg, var(--i), var(--j));
+}
+
+.nav-icons-list .nav-icon-item.active::before {
+    opacity: 1;
+}
+
+.nav-icons-list .nav-icon-item.active .material-symbols-outlined {
+    color: #fff;
+}

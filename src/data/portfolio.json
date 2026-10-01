@@ -1,0 +1,97 @@
+[
+  {
+    "id": 1,
+    "title": "Scary Teacher 3D",
+    "category": "PC Steam",
+    "image": "./assets/images/scary-teacher.jpg",
+    "alt": "Scary Teacher 3D",
+    "link": "https://store.steampowered.com/app/1233070/Scary_Teacher_3D/",
+    "logo": "./assets/images/scary-teacher.jpg",
+    "screenshots": [
+      "./assets/images/scary-teacher.jpg"
+    ],
+    "description": "Scary Teacher 3D is a popular stealth-horror game where players sneak into a scary teacher's house to teach her a lesson. Available on Steam with millions of installs across platforms.",
+    "steamLink": "https://store.steampowered.com/app/1233070/Scary_Teacher_3D/"
+  },
+  {
+    "id": 2,
+    "title": "Coin Sort",
+    "category": "Mobile Casual",
+    "image": "./assets/images/coin-sort.jpg",
+    "alt": "Coin Sort",
+    "link": "#",
+    "logo": "./assets/images/coin-sort.jpg",
+    "screenshots": [
+      "./assets/images/coin-sort.jpg"
+    ],
+    "description": "Coin Sort is a satisfying sorting puzzle game where players organize coins into the correct slots. Simple mechanics with addictive gameplay loop."
+  },
+  {
+    "id": 3,
+    "title": "Traffic Jam Fever",
+    "category": "Mobile Casual",
+    "image": "./assets/images/traffic-jam.jpg",
+    "alt": "Traffic Jam Fever",
+    "link": "#",
+    "logo": "./assets/images/traffic-jam.jpg",
+    "screenshots": [
+      "./assets/images/traffic-jam.jpg"
+    ],
+    "description": "Traffic Jam Fever is an addictive traffic management game where players must navigate vehicles through congested intersections. Features progressively challenging levels."
+  },
+  {
+    "id": 4,
+    "title": "Police Quest",
+    "category": "Mobile Casual",
+    "image": "./assets/images/police-quest.jpg",
+    "alt": "Police Quest",
+    "link": "#",
+    "logo": "./assets/images/police-quest.jpg",
+    "screenshots": [
+      "./assets/images/police-quest.jpg"
+    ],
+    "description": "Police Quest is an action-packed game where players take on the role of a police officer, chasing criminals and maintaining order across thrilling missions."
+  },
+  {
+    "id": 5,
+    "title": "Monster Truck Evolution",
+    "category": "Mobile Casual",
+    "image": "./assets/images/monster-truck.jpg",
+    "alt": "Monster Truck Evolution",
+    "link": "https://play.google.com/store/apps/details?id=com.monster.truck.evolution",
+    "logo": "./assets/images/monster-truck.jpg",
+    "screenshots": [
+      "./assets/images/monster-truck.jpg"
+    ],
+    "description": "Monster Truck Evolution is a merge-and-evolve game featuring monster trucks. Combine trucks to unlock bigger and more powerful vehicles in this casual idle game.",
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.monster.truck.evolution"
+  },
+  {
+    "id": 6,
+    "title": "Game Base - Unity Framework",
+    "category": "Tools",
+    "image": "./assets/images/game-base.jpg",
+    "alt": "Game Base Framework",
+    "link": "https://github.com/AgentSamad",
+    "logo": "./assets/images/game-base.jpg",
+    "screenshots": [
+      "./assets/images/game-base.jpg"
+    ],
+    "description": "Reusable project framework built on a ScriptableObject-driven data architecture with custom Unity Editor windows for level design and content authoring, cutting new project setup time by around 30%. Includes an in-game store and skin inventory system.",
+    "customLink": "https://github.com/AgentSamad"
+  },
+  {
+    "id": 7,
+    "title": "Mesh Fusion Tool",
+    "category": "Tools",
+    "image": "./assets/images/mesh-fusion.jpg",
+    "alt": "Mesh Fusion Tool",
+    "link": "https://github.com/AgentSamad",
+    "logo": "./assets/images/mesh-fusion.jpg",
+    "screenshots": [
+      "./assets/images/mesh-fusion.jpg"
+    ],
+    "description": "Unity Editor extension that merges multiple meshes into a single mesh and generates a material atlas, significantly reducing draw calls and improving GPU performance on mobile.",
+    "customLink": "https://github.com/AgentSamad"
+  }
+]
