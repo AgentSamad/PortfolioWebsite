@@ -178,14 +178,29 @@
         "link": "https://isocpp.org/"
       },
       {
+        "name": "Adobe Photoshop",
+        "logo": "./assets/images/photoshop-logo.png",
+        "link": "https://www.adobe.com/products/photoshop.html"
+      },
+      {
+        "name": "Figma",
+        "logo": "./assets/images/figma-logo.svg",
+        "link": "https://www.figma.com/"
+      },
+      {
         "name": "Blender",
         "logo": "./assets/images/blender-logo.png",
         "link": "https://www.blender.org/"
       },
       {
-        "name": "Adobe Photoshop",
-        "logo": "./assets/images/photoshop-logo.png",
-        "link": "https://www.adobe.com/products/photoshop.html"
+        "name": "Trello",
+        "logo": "./assets/images/trello-logo.svg",
+        "link": "https://trello.com/"
+      },
+      {
+        "name": "Asana",
+        "logo": "./assets/images/asana-logo.svg",
+        "link": "https://asana.com/"
       },
       {
         "name": "Jira",
@@ -198,8 +213,18 @@
         "link": "https://github.com/"
       },
       {
+        "name": "GitLab",
+        "logo": "./assets/images/gitlab-logo.svg",
+        "link": "https://gitlab.com/"
+      },
+      {
+        "name": "AWS",
+        "logo": "./assets/images/aws-logo.svg",
+        "link": "https://aws.amazon.com/"
+      },
+      {
         "name": "Firebase",
-        "logo": "./assets/images/firebase-logo.png",
+        "logo": "./assets/images/firebase-logo.svg",
         "link": "https://firebase.google.com/"
       }
     ],
