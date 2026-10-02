@@ -31,6 +31,8 @@ jobs:
         run: npm ci --force
       - name: Build with Next.js
         run: npx next build
+        env:
+          PAGES_BASE_PATH: /PortfolioWebsite
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

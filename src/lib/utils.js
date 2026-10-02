@@ -1,6 +1,7 @@
 export function assetPath(path) {
   if (!path) return path;
-  return path.replace(/^\.\//, "/");
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  return path.replace(/^\.\//, base + "/");
 }
 
 export function getCategoryFilter(category, type) {
