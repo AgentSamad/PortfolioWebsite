@@ -22,18 +22,18 @@ export default function ExperienceDetail({ experience, index }) {
         </Link>
       </div>
 
-      <div className="flex items-center gap-4 mb-4">
+      <div className="flex items-center gap-3 sm:gap-4 mb-4">
         {experience.logo && (
           <img
             id="experience-logo"
             alt="Company Logo"
-            className="w-16 h-16 object-contain rounded-xl"
+            className="w-12 h-12 sm:w-16 sm:h-16 object-contain rounded-xl flex-shrink-0"
             src={experience.logo}
           />
         )}
         <h1
           id="experience-company"
-          className="text-4xl md:text-5xl font-bold text-white"
+          className="text-2xl sm:text-4xl md:text-5xl font-bold text-white"
         >
           {company}
         </h1>

@@ -663,12 +663,11 @@ details[open] {
     gap: 0 !important;
     column-gap: 0 !important;
     row-gap: 0 !important;
-    grid-template-columns: repeat(3, 100px);
+    grid-template-columns: repeat(3, 1fr);
     justify-content: start;
 }
 
 .statistics-grid>div {
-    width: 300px;
     max-width: 300px;
     padding: 0;
     margin: 0;
@@ -1056,4 +1055,61 @@ details[open] {
 
 .nav-icons-list .nav-icon-item.active .material-symbols-outlined {
     color: #fff;
+}
+
+/* ============================================
+   MOBILE RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+    .nav-icons-list {
+        gap: 8px;
+    }
+
+    .nav-icons-list .nav-icon-item {
+        width: 36px;
+        height: 36px;
+    }
+
+    .nav-icons-list .nav-icon-item:hover {
+        width: 36px;
+    }
+
+    .nav-icons-list .nav-icon-item:hover .material-symbols-outlined {
+        transform: scale(1);
+    }
+
+    .nav-icons-list .nav-icon-item:hover .title {
+        transform: scale(0);
+    }
+
+    .nav-icons-list .nav-icon-item .material-symbols-outlined {
+        font-size: 1.1em;
+    }
+
+    .statistics-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+
+    .statistics-grid>div {
+        width: auto;
+        max-width: none;
+    }
+
+    #clients-section img {
+        max-width: 160px;
+        height: 60px;
+    }
+
+    #clients-section a {
+        min-width: 120px;
+    }
+
+    #sidebar-social .social-icons-list li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+        margin: 0 5px;
+    }
 }

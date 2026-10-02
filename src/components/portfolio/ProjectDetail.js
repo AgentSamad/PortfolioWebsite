@@ -3,7 +3,16 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
-const SCREENSHOTS_PER_VIEW = 3;
+function useScreenshotsPerView() {
+  const [perView, setPerView] = useState(3);
+  useEffect(() => {
+    const update = () => setPerView(window.innerWidth < 768 ? 1 : 3);
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, []);
+  return perView;
+}
 
 function isVideoMedia(media, itemType) {
   return (
@@ -22,12 +31,14 @@ export default function ProjectDetail({ item }) {
         ? [item.video]
         : [];
 
+  const screenshotsPerView = useScreenshotsPerView();
   const [index, setIndex] = useState(0);
   const sliderRef = useRef(null);
   const containerRef = useRef(null);
-  const maxIndex = Math.max(0, screenshots.length - SCREENSHOTS_PER_VIEW);
-  const showNav = screenshots.length > SCREENSHOTS_PER_VIEW;
-  const itemWidthCalc = `calc(${100 / SCREENSHOTS_PER_VIEW}% - 0.67rem)`;
+  const maxIndex = Math.max(0, screenshots.length - screenshotsPerView);
+  const showNav = screenshots.length > screenshotsPerView;
+  const gapRem = screenshotsPerView === 1 ? 0 : 0.67;
+  const itemWidthCalc = `calc(${100 / screenshotsPerView}% - ${gapRem}rem)`;
 
   useEffect(() => {
     setIndex(0);
@@ -85,18 +96,18 @@ export default function ProjectDetail({ item }) {
         </Link>
       </div>
 
-      <div className="flex items-center gap-4 mb-4">
+      <div className="flex items-center gap-3 sm:gap-4 mb-4">
         {logoSrc && (
           <img
             id="project-logo"
             alt="Project Logo"
-            className="w-16 h-16 object-contain rounded-xl"
+            className="w-12 h-12 sm:w-16 sm:h-16 object-contain rounded-xl flex-shrink-0"
             src={logoSrc}
           />
         )}
         <h1
           id="project-title"
-          className="text-4xl md:text-5xl font-bold text-white"
+          className="text-2xl sm:text-4xl md:text-5xl font-bold text-white"
         >
           {item.title}
         </h1>

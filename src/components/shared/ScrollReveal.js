@@ -39,8 +39,8 @@ export default function ScrollReveal({ children, className = "" }) {
         });
       },
       {
-        threshold: 0.1,
-        rootMargin: "0px 0px -50px 0px",
+        threshold: 0.05,
+        rootMargin: "0px 0px 0px 0px",
       }
     );
 
@@ -54,9 +54,9 @@ export default function ScrollReveal({ children, className = "" }) {
     const frame = requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         run();
-        // Second pass catches late-layout content (grids/images).
         setTimeout(run, 50);
         setTimeout(run, 200);
+        setTimeout(run, 500);
       });
     });
 
