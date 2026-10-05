@@ -1,5 +1,17 @@
 [
   {
+    "id": 2,
+    "image": "./assets/images/unity6-notes.svg",
+    "alt": "Unity 6 rendering and multiplayer field notes",
+    "category": "Engine Notes",
+    "date": "2026-10-06",
+    "title": "Unity 6: features worth exploring",
+    "description": "A practical look at GPU-driven rendering, URP Render Graph, and multiplayer workflows—with an official Unity walkthrough.",
+    "readingTime": "4 min read",
+    "watchUrl": "https://learn.unity.com/course/unity-6-new-rendering-features?version=6.0",
+    "markdown": "./src/data/blogs/unity6-features.md"
+  },
+  {
     "id": 1,
     "image": "./assets/images/blog-2.jpg",
     "alt": "Unity Tips",

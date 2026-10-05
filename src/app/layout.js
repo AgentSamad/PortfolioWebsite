@@ -30,7 +30,11 @@ export const metadata = {
     images: [assetPath("./assets/images/my-profile.jpg")],
   },
   icons: {
-    icon: assetPath("./assets/images/logo.png"),
+    icon: [
+      { url: assetPath("./favicon-as.svg"), type: "image/svg+xml" },
+      { url: assetPath("./favicon-as.png"), type: "image/png", sizes: "64x64" },
+    ],
+    apple: assetPath("./apple-touch-icon-as.png"),
   },
 };
 

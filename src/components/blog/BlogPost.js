@@ -25,6 +25,7 @@ export default function BlogPost({ blog, html, related }) {
       </div>
 
       <div className="mb-4">
+        <p className="eyebrow">{blog.category}{blog.readingTime ? ` / ${blog.readingTime}` : ""}</p>
         <span id="blog-post-date" className="text-sm text-gray-400">
           {formatDate(blog.date)}
         </span>
@@ -42,6 +43,7 @@ export default function BlogPost({ blog, html, related }) {
         className="mb-16 text-gray-300 prose prose-lg dark:prose-invert max-w-none prose-headings:text-white prose-p:text-gray-300 prose-strong:text-white prose-a:text-primary prose-code:text-gray-200 prose-pre:bg-gray-900 prose-blockquote:text-gray-400"
         dangerouslySetInnerHTML={{ __html: html }}
       />
+      {blog.watchUrl && <aside className="blog-watch-panel"><div><p className="eyebrow">LEARN BY WATCHING</p><h2>See Unity 6 in action</h2><p>Follow the official Unity Learn rendering course alongside these notes.</p></div><a href={blog.watchUrl} className="button-primary" target="_blank" rel="noopener noreferrer">Watch the walkthrough ↗</a></aside>}
 
       {related.length > 0 && (
         <div id="blog-post-related" className="mb-16">
