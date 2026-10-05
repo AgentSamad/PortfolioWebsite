@@ -5,10 +5,15 @@ import { useEffect } from "react";
 
 function revealVisibleElements(observer) {
   const candidates = document.querySelectorAll(
-    ".animate-on-scroll:not(.animated), .animate-stagger:not(.animated)"
+    ".animate-on-scroll:not(.animated), .animate-stagger:not(.animated), .home-section:not(.animated), .partners-section:not(.animated), .stats-strip:not(.animated), .game-card:not(.animated), .portfolio-item:not(.animated), .experience-preview-item:not(.animated), .partner-logo:not(.animated), .journal-card:not(.animated), .developer-intro:not(.animated), .contact-form-panel:not(.animated), #experience-list > a:not(.animated), #education-list > div:not(.animated)"
   );
 
   candidates.forEach((el) => {
+    if (!el.matches(".animate-on-scroll, .animate-stagger")) el.classList.add("reveal-ready");
+    if (el.matches(".game-card, .portfolio-item, .partner-logo, .experience-preview-item")) {
+      const siblings = Array.from(el.parentElement.children);
+      el.style.transitionDelay = `${(siblings.indexOf(el) % 3) * 80}ms`;
+    }
     const rect = el.getBoundingClientRect();
     const inView =
       rect.height > 0 &&
@@ -51,6 +56,19 @@ export default function ScrollReveal({ children, className = "" }) {
       revealVisibleElements(observer);
     };
 
+    // Filters insert new cards without changing routes: observe those too.
+    let mutationFrame;
+    const updates = new MutationObserver((records) => {
+      const insertedCards = records.some(record => Array.from(record.addedNodes).some(node =>
+        node.nodeType === 1 && (node.matches(".game-card, .portfolio-item") || node.querySelector(".game-card, .portfolio-item"))
+      ));
+      if (!insertedCards) return;
+      cancelAnimationFrame(mutationFrame);
+      mutationFrame = requestAnimationFrame(run);
+    });
+    const main = document.querySelector(".site-main");
+    if (main) updates.observe(main, { childList: true, subtree: true });
+
     const frame = requestAnimationFrame(() => {
       requestAnimationFrame(() => {
         run();
@@ -63,6 +81,8 @@ export default function ScrollReveal({ children, className = "" }) {
     return () => {
       cancelled = true;
       cancelAnimationFrame(frame);
+      cancelAnimationFrame(mutationFrame);
+      updates.disconnect();
       observer.disconnect();
     };
   }, [pathname]);

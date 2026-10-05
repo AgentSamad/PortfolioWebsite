@@ -16,7 +16,7 @@ function PortfolioCard({ item, index }) {
 
   const onMouseEnter = (event) => {
     const video = event.currentTarget.querySelector("video");
-    if (video) video.play();
+    if (video) video.play().catch(() => {});
   };
 
   const onMouseLeave = (event) => {
@@ -77,7 +77,7 @@ export default function PortfolioPage({ items }) {
   const filtered = useMemo(() => {
     if (filter === "all") return items;
     return items.filter(
-      (item) => getCategoryFilter(item.category, item.type) === filter
+      (item) => filter === "casual" ? item.category.startsWith("Mobile") : getCategoryFilter(item.category, item.type) === filter
     );
   }, [filter, items]);
 
@@ -98,6 +98,7 @@ export default function PortfolioPage({ items }) {
               <button
                 key={tab.id}
                 type="button"
+                aria-pressed={active}
                 onClick={() => setFilter(tab.id)}
                 data-filter={tab.id}
                 className={`filter-tab px-4 py-2 rounded-full text-sm font-medium transition ${

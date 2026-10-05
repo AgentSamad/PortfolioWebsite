@@ -116,7 +116,7 @@ export default function ResumePage({ resume }) {
           <div id="experience-list" className="space-y-6">
             {(resume?.experience || []).map((exp, index) => {
               const company = getCompanyName(exp);
-              const description = getExperienceSummary(exp);
+              const description = exp.overview || getExperienceSummary(exp);
               return (
                 <Link
                   key={`${company}-${index}`}
@@ -125,7 +125,7 @@ export default function ResumePage({ resume }) {
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-48 h-0.5 bg-primary transition-all duration-300 group-hover:w-72 group-hover:h-1 rounded-full" />
-                  <div className="flex justify-between items-start mb-4">
+                  <div className="experience-card-heading flex justify-between items-start mb-4">
                     <div className="flex items-center">
                       {exp.logo && (
                         <img

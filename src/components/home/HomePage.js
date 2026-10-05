@@ -1,136 +1,27 @@
 import Link from "next/link";
-import TypingText from "./TypingText";
-import ClientsMarquee from "./ClientsMarquee";
 import Testimonials from "./Testimonials";
-import CollaborateCTA from "@/components/shared/CollaborateCTA";
-
-const serviceIcons = {
-  "Game Development": "sports_esports",
-  "Editor Tooling": "build",
-  "Mobile Development": "phone_android",
-  "Technical Leadership": "groups",
-};
-
-export default function HomePage({ content }) {
-  const about = content?.about;
-
-  return (
-    <>
-      <section id="home" className="space-y-8 mb-16 animate-on-scroll">
-        <div className="space-y-6">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
-            Transforming Your
-            <br />
-            Ideas into <TypingText />
-          </h1>
-          <p
-            id="hero-description"
-            className="text-base md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl"
-          >
-            Unity and C# engineer with 8 years of commercial game development
-            across PC and mobile. Specializing in gameplay systems, editor
-            tooling, and multiplayer architecture.
-          </p>
-
-          <div className="grid grid-cols-3 pt-6 statistics-grid">
-            <div>
-              <div
-                id="stat-years"
-                className="text-4xl md:text-5xl font-bold text-white dark:text-white"
-              >
-                +8
-              </div>
-              <div className="text-xs uppercase tracking-wider text-gray-400 dark:text-gray-400 mt-2">
-                Years
-                <br />
-                of Experience
-              </div>
-            </div>
-            <div>
-              <div
-                id="stat-projects"
-                className="text-4xl md:text-5xl font-bold text-white dark:text-white"
-              >
-                +50
-              </div>
-              <div className="text-xs uppercase tracking-wider text-gray-400 dark:text-gray-400 mt-2">
-                Games
-                <br />
-                Shipped
-              </div>
-            </div>
-            <div>
-              <div
-                id="stat-clients"
-                className="text-4xl md:text-5xl font-bold text-white dark:text-white"
-              >
-                50M+
-              </div>
-              <div className="text-xs uppercase tracking-wider text-gray-400 dark:text-gray-400 mt-2">
-                Total
-                <br />
-                Installs
-              </div>
-            </div>
-          </div>
-
-          <div className="flex items-center gap-4 pt-6">
-            <Link
-              href="/resume"
-              className="px-6 py-3 bg-primary text-white rounded-xl font-medium text-sm hover:bg-primary-hover transition shadow-lg shadow-primary/30"
-            >
-              Resume
-            </Link>
-            <Link
-              href="/projects"
-              className="flex items-center gap-1 text-sm font-medium text-white dark:text-white hover:text-primary transition cursor-pointer"
-            >
-              My Work{" "}
-              <span className="material-symbols-outlined text-base">
-                arrow_forward
-              </span>
-            </Link>
-          </div>
-        </div>
-        <div className="border-t border-gray-200 dark:border-gray-800 pt-6 mt-8">
-          <p className="text-lg text-white dark:text-white mb-4">
-            Relied on by companies near, far, and worldwide
-          </p>
-          <ClientsMarquee clients={about?.clients || []} />
-        </div>
-      </section>
-
-      <section id="about" className="mb-16 animate-on-scroll">
-        <h2 className="text-3xl font-bold mb-6" id="about-title">
-          {about?.title || "About me"}
-        </h2>
-        <div id="services-grid" className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {(about?.services || []).map((service, index) => (
-            <div
-              key={service.title}
-              className="bg-card-light dark:bg-card-dark p-6 rounded-xl border border-gray-200 dark:border-gray-800 hover:border-primary/50 transition-all duration-300 card-hover animate-stagger"
-              style={{ animationDelay: `${index * 0.15}s` }}
-            >
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-14 h-14 flex items-center justify-center bg-primary/10 dark:bg-primary/20 rounded-lg">
-                  <span className="material-symbols-outlined text-primary text-3xl">
-                    {serviceIcons[service.title] || "code"}
-                  </span>
-                </div>
-                <div className="flex-1">
-                  <h4 className="font-bold text-lg mb-2">{service.title}</h4>
-                  <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                    {service.description}
-                  </p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <Testimonials testimonials={about?.testimonials || []} />
-      <CollaborateCTA />
-    </>
-  );
+import FeaturedProjects from "./FeaturedProjects";
+import ContactForm from "@/components/contact/ContactForm";
+import { assetPath } from "@/lib/utils";
+import TeamSpecialties from "./TeamSpecialties";
+import TypingText from "./TypingText";
+export default function HomePage({ content, items, blogs }) {
+  const { about, resume, sidebar } = content;
+  const blog = blogs[0];
+  return <div className="home-design">
+    <section className="hero">
+      <img className="hero-art" src={assetPath("./assets/images/portfolio-hero.webp")} alt="" fetchPriority="high" />
+      <div className="hero-shade" />
+      <div className="hero-copy"><p className="eyebrow">UNITY / C# / GAMEPLAY ENGINEERING</p><h1>I build games<br /><span className="hero-second-line">people <em><TypingText /></em></span></h1><p className="hero-description">Senior Game Developer crafting gameplay systems, tools, and multiplayer experiences for PC and mobile.</p><div className="hero-actions"><Link href="/projects" className="button-primary">Explore projects <span>↗</span></Link><Link href="/resume" className="button-outline">View resume</Link></div></div>
+      <span className="hero-caption">GAMEPLAY. SYSTEMS. EXPERIENCE.</span>
+    </section>
+    <div className="stats-strip"><div><strong>8+</strong><span>Years experience</span></div><div><strong>50+</strong><span>Games shipped</span></div><div><strong>50M+</strong><span>Total installs</span></div></div>
+    <section className="home-section"><div className="section-heading"><div><p className="eyebrow">THE PORTFOLIO</p><h2>Selected work</h2><p>A few worlds I helped bring to life.</p></div><Link className="text-link" href="/projects">View all {items.length} projects ↗</Link></div><FeaturedProjects items={items} /></section>
+    <TeamSpecialties services={about.services} />
+    <section className="home-section"><div className="section-heading"><div><p className="eyebrow">THE JOURNEY</p><h2>Experience that ships.</h2><p>From core gameplay to live games, I focus on what players love.</p></div><Link className="text-link" href="/resume">Explore my resume ↗</Link></div><div className="experience-preview">{resume.experience.slice(0, 3).map((exp, index) => <Link href={`/experience/${index}`} key={exp.company} className="experience-preview-item"><span className="experience-number">0{index + 1}</span><div><span className="experience-period">{exp.period}</span><h3>{exp.company}</h3><p>{exp.position}</p><span className="text-link">My role &amp; impact ↗</span></div></Link>)}</div></section>
+    <section className="partners-section"><p>Built with teams<br /><strong>around the world</strong></p><div className="partner-logos">{about.clients.map(client => <div key={client.name} className="partner-logo"><img src={client.logo} alt={client.name} loading="lazy" /><span>{client.name}</span></div>)}</div></section>
+    <section className="home-section about-journal"><div className="journal"><p className="eyebrow">THOUGHTS &amp; FIELD NOTES</p><h2>From the dev log</h2>{blog && <Link href={`/blog/${blog.id}`} className="journal-card"><img src={blog.image} alt={blog.alt} loading="lazy" /><div><span className="eyebrow">UNITY / DEVELOPMENT</span><h3>{blog.title}</h3><p>Practical lessons and workflows from building games with Unity.</p><span className="text-link">Read the blog ↗</span></div></Link>}</div><div className="about-developer"><p className="eyebrow">BEHIND THE GAMES</p><h2>Meet the developer</h2><div className="developer-intro"><img src={sidebar.avatar} alt={sidebar.name} loading="lazy" /><div><h3>{sidebar.name}</h3><span>Senior Game Developer · Unity &amp; C#</span></div></div><p>{about.description[0]}</p><Link className="text-link" href="/resume">More about my experience ↗</Link></div></section>
+    <Testimonials testimonials={about.testimonials} />
+    <section className="home-section home-contact" id="start-a-conversation"><div><p className="eyebrow">LET&apos;S CONNECT</p><h2>Let&apos;s build<br />something <em>playable.</em></h2><p>Have a project in mind or a team that needs a game developer? I&apos;d love to hear from you.</p><div className="social-links">{sidebar.contacts.map(contact => <a href={contact.link} key={contact.type} {...(contact.type !== "email" ? {target:"_blank",rel:"noopener noreferrer"} : {})}>{contact.title} ↗</a>)}</div></div><ContactForm /></section>
+  </div>;
 }

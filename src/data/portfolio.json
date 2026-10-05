@@ -1,20 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "Scary Teacher 3D",
-    "category": "PC Steam",
-    "image": "./assets/images/scary-teacher.jpg",
-    "alt": "Scary Teacher 3D",
-    "link": "https://store.steampowered.com/app/971470/Scary_Teacher_3D/",
-    "logo": "./assets/images/scary-teacher.jpg",
-    "screenshots": [
-      "./assets/images/scary-teacher-01.jpg",
-      "./assets/images/scary-teacher-02.jpg"
-    ],
-    "description": "Sneak, prank, and outsmart Miss T in this suspenseful, humorous 3D puzzle-stealth game. Explore a detailed 3D environment, find clues, and execute creative traps while staying stealthy. Developed at GenITeam Solutions and published by Z&K Games on Steam. Free to play with dynamic challenges across multiple levels.",
-    "steamLink": "https://store.steampowered.com/app/971470/Scary_Teacher_3D/"
-  },
-  {
     "id": 2,
     "title": "Coin Sort",
     "category": "Mobile Casual",
@@ -1411,5 +1396,20 @@
     ],
     "description": "Attack to the people with a horde of zombies, collect more zombies to climb biggest walls!",
     "appStoreLink": "https://apps.apple.com/us/app/the-last-day/id1554647138?uo=4"
+  },
+  {
+    "id": 1,
+    "title": "Scary Teacher 3D",
+    "category": "PC Steam",
+    "image": "./assets/images/scary-teacher.jpg",
+    "alt": "Scary Teacher 3D",
+    "link": "https://store.steampowered.com/app/971470/Scary_Teacher_3D/",
+    "logo": "./assets/images/scary-teacher.jpg",
+    "screenshots": [
+      "./assets/images/scary-teacher-01.jpg",
+      "./assets/images/scary-teacher-02.jpg"
+    ],
+    "description": "Sneak, prank, and outsmart Miss T in this suspenseful, humorous 3D puzzle-stealth game. Explore a detailed 3D environment, find clues, and execute creative traps while staying stealthy. Developed at GenITeam Solutions and published by Z&K Games on Steam. Free to play with dynamic challenges across multiple levels.",
+    "steamLink": "https://store.steampowered.com/app/971470/Scary_Teacher_3D/"
   }
 ]

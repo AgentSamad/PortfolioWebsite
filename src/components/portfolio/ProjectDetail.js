@@ -45,6 +45,10 @@ export default function ProjectDetail({ item }) {
   }, [item.id]);
 
   useEffect(() => {
+    setIndex((current) => Math.min(current, Math.max(0, screenshots.length - screenshotsPerView)));
+  }, [screenshots.length, screenshotsPerView]);
+
+  useEffect(() => {
     const slider = sliderRef.current;
     const container = containerRef.current;
     if (!slider || !container || screenshots.length === 0) return;
@@ -56,7 +60,7 @@ export default function ProjectDetail({ item }) {
     const gapPx = 16;
     const translateXPx = -(index * (itemWidthPx + gapPx));
     slider.style.transform = `translateX(${translateXPx}px)`;
-  }, [index, screenshots.length]);
+  }, [index, screenshots.length, screenshotsPerView]);
 
   const change = (direction) => {
     setIndex((prev) => {
@@ -82,7 +86,8 @@ export default function ProjectDetail({ item }) {
   const hasGoogle = Boolean(item.googlePlayLink);
   const hasAppStore = Boolean(item.appStoreLink);
   const hasCustom = Boolean(item.customLink);
-  const hasAnyLink = hasGoogle || hasAppStore || hasCustom;
+  const hasSteam = Boolean(item.steamLink);
+  const hasAnyLink = hasGoogle || hasAppStore || hasCustom || hasSteam;
 
   return (
     <>
@@ -162,6 +167,7 @@ export default function ProjectDetail({ item }) {
                 <button
                   type="button"
                   onClick={() => change(-1)}
+                  aria-label="Previous screenshot"
                   className="absolute left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition"
                 >
                   <span className="material-symbols-outlined text-lg">
@@ -171,6 +177,7 @@ export default function ProjectDetail({ item }) {
                 <button
                   type="button"
                   onClick={() => change(1)}
+                  aria-label="Next screenshot"
                   className="absolute right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 rounded-full bg-black/50 hover:bg-black/70 text-white flex items-center justify-center transition"
                 >
                   <span className="material-symbols-outlined text-lg">
@@ -190,7 +197,9 @@ export default function ProjectDetail({ item }) {
                     key={dotIndex}
                     type="button"
                     onClick={() => setIndex(dotIndex)}
-                    className={`w-2 h-2 rounded-full transition ${
+                    aria-label={`Show screenshot ${dotIndex + 1}`}
+                    aria-pressed={dotIndex === index}
+                    className={`w-6 h-6 rounded-full transition ${
                       dotIndex === index ? "bg-primary" : "bg-gray-600"
                     }`}
                   />
@@ -215,6 +224,7 @@ export default function ProjectDetail({ item }) {
 
       {hasAnyLink && (
         <div id="project-links-section" className="mb-16 flex flex-wrap gap-4">
+          {hasSteam && <a href={item.steamLink} target="_blank" rel="noopener noreferrer" className="button-primary">View on Steam ↗</a>}
           {hasGoogle && (
             <a
               href={item.googlePlayLink}

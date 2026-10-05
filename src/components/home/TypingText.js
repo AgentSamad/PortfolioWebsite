@@ -1,71 +1,45 @@
 "use client";
-
-import { useEffect, useRef, useState } from "react";
-
-const WORDS = [
-  "Games",
-  "Systems",
-  "Experiences",
-  "Tools",
-  "Solutions",
-  "Performance",
-];
-
+import { useEffect, useState } from "react";
+const PHRASES = ["keep playing.", "keep loving.", "keep exploring.", "keep enjoying."];
 export default function TypingText() {
-  const [text, setText] = useState("Games");
-  const stateRef = useRef({
-    wordIndex: 0,
-    charIndex: 0,
-    isDeleting: false,
-  });
-
+  const [text, setText] = useState(PHRASES[0]);
+  const [paused, setPaused] = useState(false);
   useEffect(() => {
-    let timeoutId;
+    const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let timer;
+    let phraseIndex = 0;
+    let charIndex = PHRASES[0].length;
+    let deleting = true;
     let active = true;
-
-    const type = () => {
-      if (!active) return;
-
-      const state = stateRef.current;
-      const currentWord = WORDS[state.wordIndex];
-      let typingSpeed = 100;
-
-      if (state.isDeleting) {
-        state.charIndex -= 1;
-        setText(currentWord.substring(0, state.charIndex));
-        typingSpeed = 50;
-      } else {
-        state.charIndex += 1;
-        setText(currentWord.substring(0, state.charIndex));
-        typingSpeed = 100;
+    const tick = () => {
+      if (!active || preference.matches || paused) return;
+      const phrase = PHRASES[phraseIndex];
+      charIndex += deleting ? -1 : 1;
+      setText(phrase.slice(0, charIndex));
+      let delay = deleting ? 45 : 85;
+      if (deleting && charIndex === 0) {
+        phraseIndex = (phraseIndex + 1) % PHRASES.length;
+        deleting = false;
+        delay = 300;
+      } else if (!deleting && charIndex === phrase.length) {
+        deleting = true;
+        delay = 2200;
       }
-
-      if (!state.isDeleting && state.charIndex === currentWord.length) {
-        typingSpeed = 2000;
-        state.isDeleting = true;
-      } else if (state.isDeleting && state.charIndex === 0) {
-        state.isDeleting = false;
-        state.wordIndex = (state.wordIndex + 1) % WORDS.length;
-        typingSpeed = 500;
-      }
-
-      timeoutId = setTimeout(type, typingSpeed);
+      timer = setTimeout(tick, delay);
     };
-
-    timeoutId = setTimeout(type, 1000);
-
-    return () => {
-      active = false;
-      clearTimeout(timeoutId);
+    const start = () => {
+      clearTimeout(timer);
+      phraseIndex = 0; charIndex = PHRASES[0].length; deleting = true;
+      setText(PHRASES[0]);
+      if (!preference.matches && !paused) timer = setTimeout(tick, 2200);
     };
-  }, []);
-
-  return (
-    <>
-      <span id="typing-text" className="text-primary">
-        {text}
-      </span>
-      <span className="text-primary typing-cursor">|</span>
-    </>
-  );
+    start();
+    preference.addEventListener("change", start);
+    return () => { active = false; clearTimeout(timer); preference.removeEventListener("change", start); };
+  }, [paused]);
+  return <span className="hero-typing">
+    <span className="sr-only">keep playing, keep loving, keep exploring, and keep enjoying.</span>
+    <span aria-hidden="true">{text}<span className="hero-typing-cursor">|</span></span>
+    <button className="headline-motion-toggle" type="button" aria-label={paused ? "Play headline animation" : "Pause headline animation"} aria-pressed={paused} onClick={() => setPaused(value => !value)}>{paused ? "▶" : "Ⅱ"}</button>
+  </span>;
 }
