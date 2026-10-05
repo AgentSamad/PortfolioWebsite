@@ -33,6 +33,7 @@ jobs:
         run: npx next build
         env:
           PAGES_BASE_PATH: /PortfolioWebsite
+          NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY: ${{ secrets.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
