@@ -71,6 +71,16 @@ em { font-style: normal; color: var(--accent); }
 .stats-strip > div { display: flex; flex-direction: column; align-items: center; gap: 5px; border-right: 1px solid var(--line); }
 .stats-strip > div:last-child { border: 0; }
 .stats-strip strong { font: 40px/1.1 Georgia,serif; }
+.game-publisher { font-size: 12px; line-height: 1.5; color: var(--accent); margin: 3px 0 6px; overflow-wrap: anywhere; }
+.reveal-ready:not(.animated) .game-publisher { opacity: 0; transform: translateY(10px); }
+.portfolio-item.animated .game-publisher, .game-card.animated .game-publisher { animation: publisher-reveal .6s ease .18s both; }
+@keyframes publisher-reveal {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .game-publisher { animation: none !important; opacity: 1 !important; transform: none !important; }
+}
 .stats-strip > div > span { font-size: 11px; color: var(--muted); }
 .home-section { padding: 48px 0; border-bottom: 1px solid var(--line); }
 .section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 24px; }

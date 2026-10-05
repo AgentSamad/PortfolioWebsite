@@ -14,7 +14,8 @@
       "./assets/images/coin-sort-04.jpg"
     ],
     "description": "Sort and merge coins to clear the board in this addictive arcade-style puzzle game. Enhance your reflexes and strategy by placing coins into stacks based on color, size, and denomination. Features multiple coin types, power-ups, and progressively challenging levels. Published by Lion Studios. Rated 4.7 stars with 48K ratings on the App Store.",
-    "appStoreLink": "https://apps.apple.com/us/app/coin-sort/id6446354191"
+    "appStoreLink": "https://apps.apple.com/us/app/coin-sort/id6446354191",
+    "publisher": "Lion Studios"
   },
   {
     "id": 3,
@@ -31,7 +32,8 @@
       "./assets/images/traffic-jam-04.jpg"
     ],
     "description": "Draw new roads and let more vehicles pass without creating traffic jams. A casual simulation game where you manage traffic flow by drawing routes and keeping vehicles moving. Published by Supersonic Studios with 10M+ downloads on Google Play.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.MoodGames.TrafficJamFever"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.MoodGames.TrafficJamFever",
+    "publisher": "SuperSonic"
   },
   {
     "id": 6,
@@ -48,7 +50,8 @@
       "./assets/images/neon-grid-rush-05.jpg"
     ],
     "description": "Step into a vibrant neon world where every jump depends on timing, focus, and quick reactions. Move forward along a glowing track filled with colorful obstacles and sharp turns in momentum. Tap at the right moment to jump, clear the path ahead, and keep your run going for as long as possible.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.neon.grid.rush"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.neon.grid.rush",
+    "publisher": "Geni Games"
   },
   {
     "id": 7,
@@ -65,7 +68,8 @@
       "./assets/images/shoe-strike-05.jpg"
     ],
     "description": "Ready to teach your rude boss a hilarious lesson? Welcome to Shoe Strike!, the funniest office revenge game where every flying sneaker counts! Your boss constantly yells at employees, ruins everyone's day and walks away like nothing happened.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.office.boss.aim.sneaker"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.office.boss.aim.sneaker",
+    "publisher": "Geni Games"
   },
   {
     "id": 8,
@@ -83,7 +87,8 @@
       "./assets/images/bot-crash-combat-arena-06.jpg"
     ],
     "description": "Enter the ultimate robot warzone in Bot Crash - Combat Arena, where you build, upgrade, and crash your custom bots in explosive real-time PvP battles! Choose from powerful weapons, tough armor, and strategic gadgets to create the ultimate battle machine. Compete in action-packed arenas, earn rewards, and climb the global leaderboard.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.bot.crash.battle.arena"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.bot.crash.battle.arena",
+    "publisher": "Geni Games"
   },
   {
     "id": 9,
@@ -100,7 +105,8 @@
       "./assets/images/cannon-siege-evolution-05.jpg"
     ],
     "description": "Step into the battlefield in Cannon Siege: Evolution, an action packed destruction game where power, precision and upgrades decide victory. Take control of your cannon, aim carefully and launch devastating shots to crush enemy structures and dominate every level.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.cannon.stone.castle.attack"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.cannon.stone.castle.attack",
+    "publisher": "Geni Games"
   },
   {
     "id": 10,
@@ -117,7 +123,8 @@
       "./assets/images/perfect-landing-plane-pilot-05.jpg"
     ],
     "description": "Take off into the skies with the most exciting airplane games experience and become the amazing flight pilot you always wanted to be! In this thrilling plane simulator, your mission is simple yet challenging: fly your plane as far as possible while dodging obstacles and breaking your own records.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.plane.landing.flying.games"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.plane.landing.flying.games",
+    "publisher": "Geni Games"
   },
   {
     "id": 11,
@@ -135,7 +142,8 @@
       "./assets/images/clash-of-scary-squad-06.jpg"
     ],
     "description": "Get ready for Clash of Scary Squad, a thrilling survival game where every move could be your last! Step into the scary squad’s arena, where danger, tension, and sudden eliminations await. Play as a member of the scary squad and show your strength, timing, and smart decisions to outlast everyone.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.zatg.clash.scary.squad.games"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.zatg.clash.scary.squad.games",
+    "publisher": "Z & K Games"
   },
   {
     "id": 12,
@@ -153,7 +161,8 @@
       "./assets/images/school-boy-stealth-escape-06.jpg"
     ],
     "description": "School Boy Stealth Escape – The Ultimate Home Escape Adventure! Step into the world of School Boy Stealth Escape, a challenging and hilarious home escape game designed for all fans of stealth, prank, puzzle games, and escape challenges.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.zatg.stealth.runaway.boy.escape"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.zatg.stealth.runaway.boy.escape",
+    "publisher": "Z & K Games"
   },
   {
     "id": 13,
@@ -171,7 +180,8 @@
       "./assets/images/monster-truck-evolution-06.jpg"
     ],
     "description": "Get ready for an exciting ride in one of the most fun monster truck games. Pull back your slingshot, aim, and release to send your truck flying toward the finish line. The challenge is to build a truck and upgrade it, so it can go as far as possible and reach new distances and reach the target.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.monster.truck.evolution.slingshot&hl=en"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.genigames.monster.truck.evolution.slingshot&hl=en",
+    "publisher": "Geni Games"
   },
   {
     "id": 14,
@@ -190,7 +200,8 @@
       "./assets/images/dont-get-older-06.jpg"
     ],
     "description": "Try to stay young and build your human tower. Overcome obstacles and win the game.",
-    "appStoreLink": "https://apps.apple.com/sa/app/dont-get-older/id1631807522"
+    "appStoreLink": "https://apps.apple.com/sa/app/dont-get-older/id1631807522",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 15,
@@ -209,7 +220,8 @@
       "./assets/images/dragon-car-challenge-06.jpg"
     ],
     "description": "Upgrade your car and finish the race by climbing the stairs.",
-    "appStoreLink": "https://apps.apple.com/sa/app/dragon-car-challenge/id1629007386"
+    "appStoreLink": "https://apps.apple.com/sa/app/dragon-car-challenge/id1629007386",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 16,
@@ -228,7 +240,8 @@
       "./assets/images/aircraft-evolution-06.jpg"
     ],
     "description": "Upgrade the features you want your aircraft to be strong. Destroy the enemies and their base!",
-    "appStoreLink": "https://apps.apple.com/sa/app/aircraft-evolution/id1626288181"
+    "appStoreLink": "https://apps.apple.com/sa/app/aircraft-evolution/id1626288181",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 17,
@@ -247,7 +260,8 @@
       "./assets/images/bee-bomb-06.jpg"
     ],
     "description": "Throw the jar of bees at the enemy and eelease the bees in the jar ! Let the bees bite the enemies",
-    "appStoreLink": "https://apps.apple.com/sa/app/bee-bomb/id1620870878"
+    "appStoreLink": "https://apps.apple.com/sa/app/bee-bomb/id1620870878",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 18,
@@ -266,7 +280,8 @@
       "./assets/images/elemental-couple-06.jpg"
     ],
     "description": "Collect the right elements and level up. Merge to defeat enemies and overcome obstacles !",
-    "appStoreLink": "https://apps.apple.com/sa/app/elemental-couple/id1610981153"
+    "appStoreLink": "https://apps.apple.com/sa/app/elemental-couple/id1610981153",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 19,
@@ -285,7 +300,8 @@
       "./assets/images/airline-empire-06.jpg"
     ],
     "description": "Collect passengers and board the planes. Manage your own airline",
-    "appStoreLink": "https://apps.apple.com/sa/app/airline-empire/id1637081488"
+    "appStoreLink": "https://apps.apple.com/sa/app/airline-empire/id1637081488",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 20,
@@ -302,7 +318,8 @@
       "./assets/images/police-quest-05.jpg"
     ],
     "description": "&quot;Police Quest&quot; is a thrilling and realistic police simulation game that immerses players in the world of law enforcement. With a wide range of mini games, players can experience the excitement and challenges of fighting crime from multiple angles.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.al.policequest&hl=en"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.al.policequest&hl=en",
+    "publisher": "Arcadian Lab"
   },
   {
     "id": 21,
@@ -320,7 +337,8 @@
       "./assets/images/animal-rescue-zoo-safari-06.jpg"
     ],
     "description": "Come and play Animal Rescue - Zoo Safari, animal games where you can get to rescue and move animals to your own zoo. Be a zoo keeper and treat animals so they can go back to the wild, while you become a zoo tycoon and create a whole planet zoo of your making. The animal kingdom awaits as you bring hybrid animals for the animal merge at the zoo.",
-    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.al.animalrescue"
+    "googlePlayLink": "https://play.google.com/store/apps/details?id=com.al.animalrescue",
+    "publisher": "Arcadian Lab"
   },
   {
     "id": 22,
@@ -524,7 +542,8 @@
       "./assets/images/traffic-expert-06.jpg"
     ],
     "description": "Try to open up the traffic jam by building new roads",
-    "appStoreLink": "https://apps.apple.com/us/app/traffic-expert/id1616816143?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/traffic-expert/id1616816143?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 33,
@@ -543,7 +562,8 @@
       "./assets/images/mr-president-3d-06.jpg"
     ],
     "description": "Are you ready to rule the world? You are the President right now and everything is in your hand. Will you save the world or make it worse?",
-    "appStoreLink": "https://apps.apple.com/us/app/mr-president-3d/id1533070097?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/mr-president-3d/id1533070097?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 34,
@@ -562,7 +582,8 @@
       "./assets/images/hunting-season-06.jpg"
     ],
     "description": "Become a wild tiger and chase your prey. Experience the wildlife. Let the hunt begin!",
-    "appStoreLink": "https://apps.apple.com/us/app/hunting-season/id1542257177?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/hunting-season/id1542257177?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 35,
@@ -581,7 +602,8 @@
       "./assets/images/airborne-squad-3d-06.jpg"
     ],
     "description": "Jump into the enemy zone and kill them all for victory. Recruit new soldiers or upgrade your team before attack.",
-    "appStoreLink": "https://apps.apple.com/us/app/airborne-squad-3d/id1520396268?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/airborne-squad-3d/id1520396268?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 36,
@@ -600,7 +622,8 @@
       "./assets/images/city-delivery-tycoon-06.jpg"
     ],
     "description": "Take charge in City Delivery Tycoon! In this thrilling idle simulation, you’ll manage and grow your cargo company, aiming to deliver packages faster and more efficiently. Tap, upgrade, and expand your fleet to handle larger deliveries and reach more customers.",
-    "appStoreLink": "https://apps.apple.com/us/app/city-delivery-tycoon/id6736363119?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/city-delivery-tycoon/id6736363119?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 37,
@@ -619,7 +642,8 @@
       "./assets/images/fashion-creator-06.jpg"
     ],
     "description": "Design, create and show your dresses on the podium",
-    "appStoreLink": "https://apps.apple.com/us/app/fashion-creator/id6449453627?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/fashion-creator/id6449453627?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 38,
@@ -638,7 +662,8 @@
       "./assets/images/match-the-makeup-06.jpg"
     ],
     "description": "Try to complete the right makeup by mixing the colors correctly",
-    "appStoreLink": "https://apps.apple.com/us/app/match-the-makeup/id6444615908?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/match-the-makeup/id6444615908?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 39,
@@ -657,7 +682,8 @@
       "./assets/images/cowboy-duel-3d-06.jpg"
     ],
     "description": "Are you ready for wild west! Be ready, be fast and win.",
-    "appStoreLink": "https://apps.apple.com/us/app/cowboy-duel-3d/id1494883325?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/cowboy-duel-3d/id1494883325?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 40,
@@ -676,7 +702,8 @@
       "./assets/images/perfect-heist-06.jpg"
     ],
     "description": "Be mastermind of the heist! Keep people balanced during Heist! You must be careful about hostages!  Be \"safe master\" and open the safe very carefully!  Or just blow-up the wall and stole the safe with your car! And be ready for police chase scene.",
-    "appStoreLink": "https://apps.apple.com/us/app/perfect-heist/id1550932306?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/perfect-heist/id1550932306?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 41,
@@ -695,7 +722,8 @@
       "./assets/images/control-your-man-06.jpg"
     ],
     "description": "Strengthen your relationship and take control. The stronger your bond with your man, the closer your man will stand.",
-    "appStoreLink": "https://apps.apple.com/us/app/control-your-man/id1611955322?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/control-your-man/id1611955322?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 42,
@@ -714,7 +742,8 @@
       "./assets/images/train-manager-06.jpg"
     ],
     "description": "Manage the train. Put coal on the train, collect the money for meals and tickets for the passengers",
-    "appStoreLink": "https://apps.apple.com/us/app/train-manager/id1621752051?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/train-manager/id1621752051?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 43,
@@ -732,7 +761,8 @@
       "./assets/images/teleport-ninja-3d-05.jpg"
     ],
     "description": "Teleport behind them, and kill them with your awesome skills!",
-    "appStoreLink": "https://apps.apple.com/us/app/teleport-ninja-3d/id1537170474?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/teleport-ninja-3d/id1537170474?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 44,
@@ -750,7 +780,8 @@
       "./assets/images/subway-crowd-05.jpg"
     ],
     "description": "Passengers are multiplying. Develop and grow trains. Get everyone on the trains",
-    "appStoreLink": "https://apps.apple.com/us/app/subway-crowd/id1661510066?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/subway-crowd/id1661510066?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 45,
@@ -768,7 +799,8 @@
       "./assets/images/head-smash-05.jpg"
     ],
     "description": "Smash his Head to the objects and be careful about some objects, they may hurt too much.",
-    "appStoreLink": "https://apps.apple.com/us/app/head-smash/id1565197692?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/head-smash/id1565197692?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 46,
@@ -787,7 +819,8 @@
       "./assets/images/caravan-runner-06.jpg"
     ],
     "description": "Collect caravans full of money, upgrade your car and transport coins more easily. Reach the end of the road without getting caught by the police",
-    "appStoreLink": "https://apps.apple.com/us/app/caravan-runner/id1604548094?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/caravan-runner/id1604548094?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 47,
@@ -806,7 +839,8 @@
       "./assets/images/hammer-smash-06.jpg"
     ],
     "description": "Throw your Hammer and smash the Giants! As you smash small ones Boss will be even bigger and stronger. Good luck with that!",
-    "appStoreLink": "https://apps.apple.com/us/app/hammer-smash/id1559219333?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/hammer-smash/id1559219333?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 48,
@@ -825,7 +859,8 @@
       "./assets/images/octopus-run-06.jpg"
     ],
     "description": "Collect your legs and use your legs to avoid hitting obstacles",
-    "appStoreLink": "https://apps.apple.com/us/app/octopus-run/id1592310312?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/octopus-run/id1592310312?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 49,
@@ -844,7 +879,8 @@
       "./assets/images/draw-clash-3d-06.jpg"
     ],
     "description": "Draw your formation, avoid obstacles and fight with your enemies.",
-    "appStoreLink": "https://apps.apple.com/us/app/draw-clash-3d/id1525694243?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/draw-clash-3d/id1525694243?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 50,
@@ -863,7 +899,8 @@
       "./assets/images/amuse-me-06.jpg"
     ],
     "description": "Operate the Pirate Ship and make your customers happy. Be careful about it, it's too dangerous!",
-    "appStoreLink": "https://apps.apple.com/us/app/amuse-me/id1550932812?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/amuse-me/id1550932812?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 51,
@@ -882,7 +919,8 @@
       "./assets/images/dream-proposal-06.jpg"
     ],
     "description": "Create your dream the way you want it. Don't forget your ring for the best dream.",
-    "appStoreLink": "https://apps.apple.com/us/app/dream-proposal/id1587697376?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/dream-proposal/id1587697376?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 52,
@@ -901,7 +939,8 @@
       "./assets/images/grass-cutter-06.jpg"
     ],
     "description": "Collect discs and cut the grass. Be careful not to crash into obstacles and break discs.",
-    "appStoreLink": "https://apps.apple.com/us/app/grass-cutter/id1597496496?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/grass-cutter/id1597496496?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 53,
@@ -920,7 +959,8 @@
       "./assets/images/hyper-drag-3d-06.jpg"
     ],
     "description": "Shift gears at the right moment to win the race! Be fastest driver!",
-    "appStoreLink": "https://apps.apple.com/us/app/hyper-drag-3d/id1524655043?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/hyper-drag-3d/id1524655043?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 54,
@@ -939,7 +979,8 @@
       "./assets/images/tornado-escape-06.jpg"
     ],
     "description": "Don't let the tornado swallow you. Be careful, everything comes upon you !",
-    "appStoreLink": "https://apps.apple.com/us/app/tornado-escape/id1569582521?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/tornado-escape/id1569582521?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 55,
@@ -958,7 +999,8 @@
       "./assets/images/airplane-manager-06.jpg"
     ],
     "description": "Manage the airplane. Collect passengers' tickets, distribute their meals and upgrade your aircraft.",
-    "appStoreLink": "https://apps.apple.com/us/app/airplane-manager/id1628607790?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/airplane-manager/id1628607790?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 56,
@@ -977,7 +1019,8 @@
       "./assets/images/penguin-rush-06.jpg"
     ],
     "description": "Collect penguins and start flying. Be faster using pipes and watch out for obstacles.",
-    "appStoreLink": "https://apps.apple.com/us/app/penguin-rush/id1604812128?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/penguin-rush/id1604812128?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 57,
@@ -996,7 +1039,8 @@
       "./assets/images/stack-caravan-06.jpg"
     ],
     "description": "Fill empty caravans with money. Power up your car and get rid of the cops. Get rich!",
-    "appStoreLink": "https://apps.apple.com/us/app/stack-caravan/id1611954750?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/stack-caravan/id1611954750?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 58,
@@ -1015,7 +1059,8 @@
       "./assets/images/flash-runner-06.jpg"
     ],
     "description": "You run so fast that all life around slows down. You have to slow down time to time to overcome obstacles.",
-    "appStoreLink": "https://apps.apple.com/us/app/flash-runner/id1542469661?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/flash-runner/id1542469661?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 59,
@@ -1034,7 +1079,8 @@
       "./assets/images/fashion-contest-06.jpg"
     ],
     "description": "Stack enough money and buy best clothes.Make best combination and win the contest! Shine like a Star!",
-    "appStoreLink": "https://apps.apple.com/us/app/fashion-contest/id1560652500?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/fashion-contest/id1560652500?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 60,
@@ -1053,7 +1099,8 @@
       "./assets/images/color-truck-06.jpg"
     ],
     "description": "Are you ready for enjoyable but challenging driving experience? Buckle up and drive!",
-    "appStoreLink": "https://apps.apple.com/us/app/color-truck/id1563927343?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/color-truck/id1563927343?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 61,
@@ -1072,7 +1119,8 @@
       "./assets/images/pixel-giant-06.jpg"
     ],
     "description": "Throw your soldiers, multiply them on air and take a piece from the giants till destroy them.",
-    "appStoreLink": "https://apps.apple.com/us/app/pixel-giant/id1569588774?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/pixel-giant/id1569588774?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 62,
@@ -1091,7 +1139,8 @@
       "./assets/images/big-brother-3d-06.jpg"
     ],
     "description": "Safety of the State depends on you! You must spy on people’s deepest secrets, pick apart their private lives, and determine how dangerous they are.  Find and neutralize them!",
-    "appStoreLink": "https://apps.apple.com/us/app/big-brother-3d/id1537151313?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/big-brother-3d/id1537151313?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 63,
@@ -1110,7 +1159,8 @@
       "./assets/images/pong-blast-06.jpg"
     ],
     "description": "Throw the balls into the cups. Once you fill in a vertical or horizontal line of cups, line will disappear, freeing up your balls back.",
-    "appStoreLink": "https://apps.apple.com/us/app/pong-blast/id1505389306?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/pong-blast/id1505389306?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 64,
@@ -1129,7 +1179,8 @@
       "./assets/images/cut-2048-3d-06.jpg"
     ],
     "description": "Cut the ropes!  Merge correct balls! And deliver the correct numbered ball to the basket.",
-    "appStoreLink": "https://apps.apple.com/us/app/cut-2048-3d/id1505534683?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/cut-2048-3d/id1505534683?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 65,
@@ -1148,7 +1199,8 @@
       "./assets/images/draw-war-3d-06.jpg"
     ],
     "description": "Draw your formation and defeat your enemies! Draw the formation, fight with all your enemies. Become the greatest commander! Easy to play hard to master!",
-    "appStoreLink": "https://apps.apple.com/us/app/draw-war-3d/id1527770842?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/draw-war-3d/id1527770842?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 66,
@@ -1167,7 +1219,8 @@
       "./assets/images/get-ready-06.jpg"
     ],
     "description": "Hurry up, you need to get to the meeting. Make sure you are ready before entering the meeting",
-    "appStoreLink": "https://apps.apple.com/us/app/get-ready/id1594063679?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/get-ready/id1594063679?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 67,
@@ -1186,7 +1239,8 @@
       "./assets/images/mermaid-run-06.jpg"
     ],
     "description": "Swim to reach the free ocean. Be careful about pirates and their deadly traps and save your other beautiful mermaid friends.",
-    "appStoreLink": "https://apps.apple.com/us/app/mermaid-run/id1565195905?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/mermaid-run/id1565195905?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 68,
@@ -1205,7 +1259,8 @@
       "./assets/images/ant-invasion-06.jpg"
     ],
     "description": "Rush for food, feed the hungry ants and avoid the dangers!",
-    "appStoreLink": "https://apps.apple.com/us/app/ant-invasion/id1569585481?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/ant-invasion/id1569585481?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 69,
@@ -1224,7 +1279,8 @@
       "./assets/images/speed-dating-3d-06.jpg"
     ],
     "description": "Join our Speed Dating events and find the perfect match, maybe love of your life. Love is just around the corner! Best dating game ever!",
-    "appStoreLink": "https://apps.apple.com/us/app/speed-dating-3d/id1517566395?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/speed-dating-3d/id1517566395?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 70,
@@ -1243,7 +1299,8 @@
       "./assets/images/smelly-cat-06.jpg"
     ],
     "description": "Make the cat the cutest. She needs you ! It's not her fault.",
-    "appStoreLink": "https://apps.apple.com/us/app/smelly-cat/id1579843140?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/smelly-cat/id1579843140?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 71,
@@ -1262,7 +1319,8 @@
       "./assets/images/hedgehog-06.jpg"
     ],
     "description": "Use spikes to get rid of cats and escape from the home.",
-    "appStoreLink": "https://apps.apple.com/us/app/hedgehog/id1569568636?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/hedgehog/id1569568636?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 72,
@@ -1281,7 +1339,8 @@
       "./assets/images/drunk-walk-06.jpg"
     ],
     "description": "You are drunk as hell, but if you fall you will be a loser. Don't touch any objects they are avoidable.",
-    "appStoreLink": "https://apps.apple.com/us/app/drunk-walk/id1564951914?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/drunk-walk/id1564951914?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 73,
@@ -1300,7 +1359,8 @@
       "./assets/images/wedding-rush-06.jpg"
     ],
     "description": "Don't leave anyone alone. Collect and match people",
-    "appStoreLink": "https://apps.apple.com/us/app/wedding-rush/id1603800705?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/wedding-rush/id1603800705?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 74,
@@ -1319,7 +1379,8 @@
       "./assets/images/warrior-run-06.jpg"
     ],
     "description": "Embark on an exciting journey through history in Warrior Run! Start your adventure in the Stone Age and progress through key eras such as Sparta, Rome and World War 2 battlefields. Harness gathered energies to destroy enemy towers. This unique blend of strategic planning and historical progression offers a compelling challenge for everyone.",
-    "appStoreLink": "https://apps.apple.com/us/app/warrior-run/id6503250137?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/warrior-run/id6503250137?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 75,
@@ -1338,7 +1399,8 @@
       "./assets/images/unstoppable-06.jpg"
     ],
     "description": "Run through your enemies and don't stop! Use your Super Power to throw them away!",
-    "appStoreLink": "https://apps.apple.com/us/app/unstoppable/id1554647393?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/unstoppable/id1554647393?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 76,
@@ -1357,7 +1419,8 @@
       "./assets/images/sleep-walker-06.jpg"
     ],
     "description": "He is walking on his sleep and he is in great danger! You need to help him and save his life!",
-    "appStoreLink": "https://apps.apple.com/us/app/sleep-walker/id1550839078?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/sleep-walker/id1550839078?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 77,
@@ -1376,7 +1439,8 @@
       "./assets/images/ragdoll-arena-06.jpg"
     ],
     "description": "Are you ready to fight in the arena? Choose your weapon and be the last survivor.",
-    "appStoreLink": "https://apps.apple.com/us/app/ragdoll-arena/id1569899267?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/ragdoll-arena/id1569899267?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 78,
@@ -1395,7 +1459,8 @@
       "./assets/images/the-last-day-06.jpg"
     ],
     "description": "Attack to the people with a horde of zombies, collect more zombies to climb biggest walls!",
-    "appStoreLink": "https://apps.apple.com/us/app/the-last-day/id1554647138?uo=4"
+    "appStoreLink": "https://apps.apple.com/us/app/the-last-day/id1554647138?uo=4",
+    "publisher": "Mood Games OU"
   },
   {
     "id": 1,
@@ -1410,6 +1475,7 @@
       "./assets/images/scary-teacher-02.jpg"
     ],
     "description": "Sneak, prank, and outsmart Miss T in this suspenseful, humorous 3D puzzle-stealth game. Explore a detailed 3D environment, find clues, and execute creative traps while staying stealthy. Developed at GenITeam Solutions and published by Z&K Games on Steam. Free to play with dynamic challenges across multiple levels.",
-    "steamLink": "https://store.steampowered.com/app/971470/Scary_Teacher_3D/"
+    "steamLink": "https://store.steampowered.com/app/971470/Scary_Teacher_3D/",
+    "publisher": "Z&K Games"
   }
 ]

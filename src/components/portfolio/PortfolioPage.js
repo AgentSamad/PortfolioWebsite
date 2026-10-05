@@ -65,6 +65,7 @@ function PortfolioCard({ item, index }) {
         <h3 className="font-bold text-lg text-white dark:text-white mb-1">
           {item.title}
         </h3>
+        {item.publisher && <p className="game-publisher">{item.publisher}</p>}
         <p className="text-sm text-gray-400 dark:text-gray-400">{item.category}</p>
       </div>
     </Link>
@@ -126,3 +127,4 @@ export default function PortfolioPage({ items }) {
     </>
   );
 }
+
