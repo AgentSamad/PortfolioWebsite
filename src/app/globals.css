@@ -40,6 +40,15 @@ h1, h2, h3 { text-wrap: balance; }
 .site-footer a:hover { color: var(--accent); }
 .hero { position: relative; min-height: 520px; display: flex; align-items: center; isolation: isolate; }
 .hero-art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: 65% center; z-index: -2; }
+.hero-gameplay { position: absolute; right: 3%; top: 16px; bottom: 64px; width: 42%; z-index: -2; display: flex; justify-content: center; background: radial-gradient(ellipse,rgba(211,243,107,.09),transparent 70%); }
+.hero-gameplay video { height: 100%; width: auto; max-width: 100%; object-fit: contain; border-radius: 20px; box-shadow: 0 20px 70px #0008; }
+.gameplay-toggle { position: absolute; bottom: 12px; left: 50%; transform: translateX(-50%); padding: 8px 12px; background: #101413e8; border: 1px solid var(--line); border-radius: 20px; font-size: 11px; white-space: nowrap; z-index: 2; }
+.hero:has(.hero-gameplay) .hero-shade { pointer-events: none; background: linear-gradient(90deg,#101413 0%,rgba(16,20,19,.9) 36%,transparent 68%); }
+@media (max-width: 640px) {
+  .hero:has(.hero-gameplay) { min-height: 900px; }
+  .hero-gameplay { top: auto; bottom: 64px; height: 430px; right: 0; width: 100%; }
+  .hero:has(.hero-gameplay) .hero-shade { background: linear-gradient(180deg,#101413 0%,transparent 50%); }
+}
 .hero-shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg,#101413 0%,rgba(16,20,19,.9) 21%,rgba(16,20,19,.5) 49%,rgba(16,20,19,0) 76%),linear-gradient(0deg,#101413 0%,transparent 25%); }
 .hero-copy { padding: 65px 0 65px 8px; max-width: 700px; }
 .eyebrow { font: 10px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace; letter-spacing: .2em; color: var(--muted); margin-bottom: 16px; }
@@ -54,6 +63,10 @@ em { font-style: normal; color: var(--accent); }
 .button-outline { color: var(--paper); border: 1px solid #626e66; background: rgba(16,20,19,.5); }
 .button-outline:hover { border-color: var(--accent); color: var(--accent); }
 .hero-caption { position: absolute; bottom: 28px; right: 24px; font: 8px ui-monospace,monospace; letter-spacing: .16em; color: #d6ddd3; }
+.hero:has(.hero-gameplay) .hero-caption { right: 3%; width: 42%; text-align: center; bottom: 24px; line-height: 16px; }
+@media (max-width: 640px) {
+  .hero:has(.hero-gameplay) .hero-caption { right: 0; width: 100%; bottom: 20px; }
+}
 .stats-strip { display: grid; grid-template-columns: repeat(3,1fr); border-block: 1px solid var(--line); padding: 25px 0; }
 .stats-strip > div { display: flex; flex-direction: column; align-items: center; gap: 5px; border-right: 1px solid var(--line); }
 .stats-strip > div:last-child { border: 0; }
@@ -101,6 +114,31 @@ em { font-style: normal; color: var(--accent); }
 .partner-logo { display: flex; flex-direction: column; align-items: center; gap: 10px; }
 .partner-logo img { width: 95px; height: 38px; object-fit: contain; filter: grayscale(1); opacity: .8; }
 .partner-logo span { font-size: 9px; color: var(--muted); }
+.company-marquee { grid-template-columns: 200px minmax(0,1fr); }
+.marquee-heading p { font: 18px/1.5 Georgia,serif; }
+.marquee-heading button { margin-top: 10px; color: var(--muted); font-size: 11px; padding: 6px 0; }
+.marquee-heading button:hover { color: var(--accent); }
+.marquee-window { overflow: hidden; min-width: 0; mask-image: linear-gradient(to right,transparent,#000 5%,#000 95%,transparent); }
+.marquee-track { display: flex; width: max-content; animation: company-loop 36s linear infinite; }
+.marquee-group { display: flex; flex-shrink: 0; }
+.company-logo { width: 170px; flex-shrink: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; padding: 18px 12px; }
+.company-logo img { width: 125px; height: 54px; object-fit: contain; opacity: .9; }
+.company-logo img[src$=".svg"] { filter: grayscale(1) brightness(0) invert(1); }
+.company-logo span { color: var(--muted); font-size: 11px; }
+.company-logo:hover img { opacity: 1; }
+.marquee-window:hover .marquee-track, .marquee-window:focus-within .marquee-track, .marquee-window[data-paused="true"] .marquee-track { animation-play-state: paused; }
+@keyframes company-loop { to { transform: translateX(-50%); } }
+@media (max-width: 640px) {
+  .company-marquee { grid-template-columns: minmax(0,1fr); }
+  .marquee-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+  .company-logo { width: 145px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track { animation: none; width: auto; }
+  .marquee-group { flex-wrap: wrap; justify-content: center; width: 100%; }
+  .marquee-group[aria-hidden="true"], .marquee-heading button { display: none; }
+  .marquee-window { mask-image: none; }
+}
 .about-journal { display: grid; grid-template-columns: 1.1fr 1fr; gap: 42px; }
 .about-developer { border-left: 1px solid var(--line); padding-left: 42px; }
 .about-journal .eyebrow { margin-bottom: 10px; font-size: 9px; }
@@ -299,6 +337,17 @@ em { font-style: normal; color: var(--accent); }
 .header-contact::before { animation: status-breathe 3s ease-in-out infinite; }
 .reveal-ready { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1); }
 .reveal-ready.animated { opacity: 1; transform: none; }
+.home-design { overflow-x: clip; }
+.home-design .reveal-ready[data-reveal="left"] { transform: translateX(-64px); }
+.home-design .reveal-ready[data-reveal="right"] { transform: translateX(64px); }
+.home-design .reveal-ready[data-reveal="scale"] { transform: scale(0); transform-origin: center; }
+.home-design .reveal-ready { transition-duration: .85s; }
+.home-design .reveal-ready.animated { transform: none; }
+@media (max-width: 640px) {
+  .home-design .reveal-ready[data-reveal="left"] { transform: translateX(-28px); }
+  .home-design .reveal-ready[data-reveal="right"] { transform: translateX(28px); }
+  .home-design .reveal-ready.animated { transform: none; }
+}
 .team-section .section-heading { align-items: center; }
 .section-heading p.team-values { font-size: 22px; display: flex; align-items: center; gap: 8px; color: #c3ccc5; margin-top: 15px; flex-wrap: wrap; }
 .rotating-values { display: inline-flex; align-items: center; gap: 8px; }

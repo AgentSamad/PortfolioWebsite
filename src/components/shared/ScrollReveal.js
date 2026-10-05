@@ -5,11 +5,18 @@ import { useEffect } from "react";
 
 function revealVisibleElements(observer) {
   const candidates = document.querySelectorAll(
-    ".animate-on-scroll:not(.animated), .animate-stagger:not(.animated), .home-section:not(.animated), .partners-section:not(.animated), .stats-strip:not(.animated), .game-card:not(.animated), .portfolio-item:not(.animated), .experience-preview-item:not(.animated), .partner-logo:not(.animated), .journal-card:not(.animated), .developer-intro:not(.animated), .contact-form-panel:not(.animated), #experience-list > a:not(.animated), #education-list > div:not(.animated)"
+    ".reveal-ready:not(.animated), .animate-on-scroll:not(.animated), .animate-stagger:not(.animated), .home-section:not(.animated), .partners-section:not(.animated), .stats-strip:not(.animated), .game-card:not(.animated), .portfolio-item:not(.animated), .experience-preview-item:not(.animated), .partner-logo:not(.animated), .journal-card:not(.animated), .developer-intro:not(.animated), .contact-form-panel:not(.animated), #experience-list > a:not(.animated), #education-list > div:not(.animated)"
   );
 
   candidates.forEach((el) => {
+    if (el.closest(".home-design") && el.matches(".home-section, .partners-section")) return;
     if (!el.matches(".animate-on-scroll, .animate-stagger")) el.classList.add("reveal-ready");
+    if (el.closest(".home-design") && !el.dataset.reveal) {
+      const siblings = Array.from(el.parentElement.children);
+      el.dataset.reveal = el.matches(".game-card, .partner-logo, .stats-strip")
+        ? "scale"
+        : siblings.indexOf(el) % 2 === 0 ? "left" : "right";
+    }
     if (el.matches(".game-card, .portfolio-item, .partner-logo, .experience-preview-item")) {
       const siblings = Array.from(el.parentElement.children);
       el.style.transitionDelay = `${(siblings.indexOf(el) % 3) * 80}ms`;
@@ -53,6 +60,10 @@ export default function ScrollReveal({ children, className = "" }) {
     let cancelled = false;
     const run = () => {
       if (cancelled) return;
+      document.querySelectorAll(".home-design .section-heading, .home-design .journal, .home-design .about-developer, .home-design .specialty-card, .home-design .specialty-detail, .home-design .home-contact > div:first-child, .home-design .partners-section > p").forEach((el, index) => {
+        el.classList.add("reveal-ready");
+        if (!el.dataset.reveal) el.dataset.reveal = el.matches(".specialty-card") ? "scale" : index % 2 === 0 ? "left" : "right";
+      });
       revealVisibleElements(observer);
     };
 
