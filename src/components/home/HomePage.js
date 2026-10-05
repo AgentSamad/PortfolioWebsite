@@ -6,6 +6,7 @@ import TeamSpecialties from "./TeamSpecialties";
 import TypingText from "./TypingText";
 import CompanyMarquee from "./CompanyMarquee";
 import HeroGameplay from "./HeroGameplay";
+import AnimatedStats from "./AnimatedStats";
 export default function HomePage({ content, items, blogs }) {
   const { about, resume, sidebar } = content;
   const blog = blogs[0];
@@ -16,7 +17,7 @@ export default function HomePage({ content, items, blogs }) {
       <div className="hero-copy"><p className="eyebrow">UNITY / C# / GAMEPLAY ENGINEERING</p><h1>I build games<br /><span className="hero-second-line">people <em><TypingText /></em></span></h1><p className="hero-description">Senior Game Developer crafting gameplay systems, tools, and multiplayer experiences for PC and mobile.</p><div className="hero-actions"><Link href="/projects" className="button-primary">Explore projects <span>↗</span></Link><Link href="/resume" className="button-outline">View resume</Link></div></div>
       <span className="hero-caption">GAMEPLAY. SYSTEMS. EXPERIENCE.</span>
     </section>
-    <div className="stats-strip"><div><strong>8+</strong><span>Years experience</span></div><div><strong>50+</strong><span>Games shipped</span></div><div><strong>50M+</strong><span>Total installs</span></div></div>
+    <AnimatedStats />
     <section className="home-section"><div className="section-heading"><div><p className="eyebrow">THE PORTFOLIO</p><h2>Selected work</h2><p>A few worlds I helped bring to life.</p></div><Link className="text-link" href="/projects">View all {items.length} projects ↗</Link></div><FeaturedProjects items={items} /></section>
     <TeamSpecialties services={about.services} />
     <section className="home-section"><div className="section-heading"><div><p className="eyebrow">THE JOURNEY</p><h2>Experience that ships.</h2><p>From core gameplay to live games, I focus on what players love.</p></div><Link className="text-link" href="/resume">Explore my resume ↗</Link></div><div className="experience-preview">{resume.experience.slice(0, 3).map((exp, index) => <Link href={`/experience/${index}`} key={exp.company} className="experience-preview-item"><span className="experience-number">0{index + 1}</span><div><span className="experience-period">{exp.period}</span><h3>{exp.company}</h3><p>{exp.position}</p><span className="text-link">My role &amp; impact ↗</span></div></Link>)}</div></section>

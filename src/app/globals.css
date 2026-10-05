@@ -71,7 +71,7 @@ em { font-style: normal; color: var(--accent); }
 .stats-strip > div { display: flex; flex-direction: column; align-items: center; gap: 5px; border-right: 1px solid var(--line); }
 .stats-strip > div:last-child { border: 0; }
 .stats-strip strong { font: 40px/1.1 Georgia,serif; }
-.stats-strip span { font-size: 11px; color: var(--muted); }
+.stats-strip > div > span { font-size: 11px; color: var(--muted); }
 .home-section { padding: 48px 0; border-bottom: 1px solid var(--line); }
 .section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 24px; }
 .home-design h2 { font-size: 37px; line-height: 1.15; margin-bottom: 10px; }
@@ -276,7 +276,7 @@ em { font-style: normal; color: var(--accent); }
   .hero-caption { bottom: 20px; right: 0; font-size: 7px; }
   .stats-strip { padding: 22px 0; }
   .stats-strip strong { font-size: 30px; }
-  .stats-strip span { font-size: 8px; }
+  .stats-strip > div > span { font-size: 8px; }
   .home-section { padding: 35px 0; }
   .section-heading { align-items: flex-start; flex-direction: column; gap: 10px; margin-bottom: 20px; }
   .home-design h2 { font-size: 31px; }
