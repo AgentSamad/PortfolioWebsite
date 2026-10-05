@@ -151,6 +151,8 @@ em { font-style: normal; color: var(--accent); }
 .site-main #experience-list .experience-card-heading h4 { overflow-wrap: anywhere; font-size: clamp(19px,2vw,26px); }
 .site-main #blog-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
 .site-main #blog-grid [class*="bg-primary"] { color: var(--ink); }
+.site-main #blog-post-content { overflow-wrap: anywhere; min-width: 0; }
+.site-main #blog-post-content .inline-code { white-space: normal; overflow-wrap: anywhere; }
 .site-main #resume h1, .site-main #projects h1, .site-main #contact h1, .site-main #blog h1 { font-family: Georgia,serif; font-weight: 400; letter-spacing: -.035em; }
 .site-main .portfolio-item img { aspect-ratio: 4/3; }
 @media (min-width: 1500px) { .hero { min-height: 570px; } }
