@@ -61,7 +61,7 @@
       {
         "name": "GenITeam Solutions",
         "logo": "./assets/images/GeniteamLogo.png",
-        "link": "#"
+        "link": "https://www.geniteam.com/"
       },
       {
         "name": "Mood Games",
@@ -71,12 +71,12 @@
       {
         "name": "Arcadian Labs",
         "logo": "./assets/images/Arcadian Labs.png",
-        "link": "#"
+        "link": "https://arcadianlab.com/"
       },
       {
         "name": "Dicowa Studios",
         "logo": "./assets/images/DicowaLogo.png",
-        "link": "#"
+        "link": "https://dicowa.com/"
       }
     ]
   },
@@ -89,7 +89,7 @@
         "company": "GenITeam Solutions",
         "period": "2023-09-15 — Present",
         "logo": "./assets/images/GeniteamLogo.png",
-        "link": "#",
+        "link": "https://www.geniteam.com/",
         "overview": "At GenITeam Solutions in Lahore, I work in a collaborative game development environment focused on delivering high-quality gameplay systems and tooling for cross-platform titles.",
         "myRole": "As a Senior Software Engineer, I build and maintain core gameplay systems and custom Unity Editor tooling to accelerate content and feature development across the team. I lead a team of 8 engineers on architecture decisions, code review, and delivery.",
         "skillsAcquired": "Advanced multiplayer networking with Mirror, mobile performance profiling, responsive UGUI layout architecture, Firebase Analytics integration, and A/B testing frameworks.",
@@ -126,7 +126,7 @@
         "company": "Arcadian Labs",
         "period": "2020-03-12 — 2020-12-01",
         "logo": "./assets/images/Arcadian Labs.png",
-        "link": "#",
+        "link": "https://arcadianlab.com/",
         "overview": "At Arcadian Labs in Lahore, I worked on integrating third-party services and coordinating a team to launch new game features.",
         "myRole": "As a Unity Game Developer, I integrated Firebase, Unity Ads, and third-party ad mediation networks. I diagnosed and resolved technical issues across gameplay and third-party integrations, and coordinated a team of 12 to launch a new game feature.",
         "skillsAcquired": "Firebase integration, Unity Ads, ad mediation networks, cross-team coordination, technical issue diagnosis.",
@@ -142,7 +142,7 @@
         "company": "Dicowa Studios",
         "period": "2018-11-19 — 2020-03-06",
         "logo": "./assets/images/DicowaLogo.png",
-        "link": "#",
+        "link": "https://dicowa.com/",
         "overview": "At Dicowa Studios in Lahore, I started my professional game development career building 2D gameplay mechanics and project architecture.",
         "myRole": "As a Unity Game Developer, I built 2D gameplay mechanics, enemy AI behaviours, and project architecture. I improved gameplay performance and implemented UI systems.",
         "skillsAcquired": "2D game mechanics, enemy AI behaviour systems, Unity UI systems, gameplay performance optimization, project architecture.",
